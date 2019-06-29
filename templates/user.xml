@@ -1,0 +1,61 @@
+<templateSet group="user">
+  <template name="process" value="void process$biz$($arguments$);" description="生成IView内的process接口" toReformat="false" toShortenFQNames="true">
+    <variable name="biz" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="arguments" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="perform" value="void perform$biz$($arguments$);" description="生成IPresenter内的perform接口" toReformat="false" toShortenFQNames="true">
+    <variable name="biz" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="arguments" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="am" value="private $biz$Contract.View m$biz$View;&#10;&#10;public ActivityModule($biz$Contract.View view) {&#10;    m$biz$View = view;&#10;}&#10;&#10;@ActivityScope&#10;@Provides&#10;$biz$Contract.View provide$biz$View() {&#10;    return m$biz$View;&#10;}" description="生成ActivityModule代码" toReformat="false" toShortenFQNames="true">
+    <variable name="biz" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="inject" value="void inject($biz$Activity activity);" description="在ActivityComp内生成inject接口" toReformat="false" toShortenFQNames="true">
+    <variable name="biz" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="rm" value="@Singleton&#10;@Provides&#10;$bizRepo$ provide$bizRepo$() {&#10;    return new $bizRepo$();&#10;}" description="生成RepoModule内的用例" toReformat="false" toShortenFQNames="true">
+    <variable name="bizRepo" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="fm" value="private $biz$Contract.View m$biz$View;&#10;&#10;public FragmentModule($biz$Contract.View view) {&#10;    m$biz$View = view;&#10;}&#10;&#10;@FragmentScope&#10;@Provides&#10;$biz$Contract.View provide$biz$View() {&#10;    return m$biz$View;&#10;}" description="生成FragmentModule代码" toReformat="false" toShortenFQNames="true">
+    <variable name="biz" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="sample" value="public static $type$ getSampleData() {&#10;        return Jsons.fromJson(&quot;$json$&quot;, $type$.class);&#10;}" description="生成sample数据" toReformat="false" toShortenFQNames="true">
+    <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="json" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="anko" value="class $view_name$ : AnkoComponent&lt;$activity$&gt; {&#10;    override fun createView(ui: AnkoContext&lt;$activity$&gt;) = ui.apply {&#10;        $content$&#10;    }.view&#10;}" description="生成anko layout" toReformat="false" toShortenFQNames="true">
+    <variable name="view_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="activity" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="syn" value="import kotlinx.android.synthetic.main.$layout_id$.*" description="生成kotlinx控件引用" toReformat="false" toShortenFQNames="true">
+    <variable name="layout_id" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+</templateSet>

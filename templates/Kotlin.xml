@@ -1,0 +1,8 @@
+<templateSet group="Kotlin">
+  <template name="layout" value="import kotlinx.android.synthetic.main.$layout$.*" description="import kotlinx.android.synthetic.main.&lt;layout&gt;.*" toReformat="false" toShortenFQNames="true">
+    <variable name="layout" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+</templateSet>

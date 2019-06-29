@@ -1,0 +1,25 @@
+<templateSet group="Android">
+  <template name="contract" value="interface Presenter extends IPresenter {&#10;&#10;}&#10;&#10;interface View extends IView {&#10;     &#10;}" description="create the contract between model and view" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="viewholder" value="class ViewHolder extends RecyclerView.ViewHolder {&#10;&#10;    $Binding$ binding;&#10;&#10;    public ViewHolder(View itemView) {&#10;        super(itemView);&#10;        binding = DataBindingUtil.bind(itemView);&#10;    }&#10;}" description="Generate recycler view holder" toReformat="false" toShortenFQNames="true">
+    <variable name="Binding" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="getbinding" value="mBinding = ($binding$) mSuperBinding;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="binding" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="sbc" value="///////////////////////////////////////////////////////////////////////////&#10;// $blockName$&#10;///////////////////////////////////////////////////////////////////////////" description="block comment for structuring code" toReformat="true" toShortenFQNames="true">
+    <variable name="blockName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GROOVY_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>

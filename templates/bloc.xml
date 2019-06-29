@@ -1,0 +1,42 @@
+<templateSet group="bloc">
+  <template name="bloc" value="final bloc = BLoCProvider.of&lt;$BLoC$&gt;(context);" description="获取Bloc的代码" toReformat="false" toShortenFQNames="true">
+    <variable name="BLoC" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="BLoC" value="import 'package:decorated_flutter/decorated_flutter.dart';&#10;import 'package:meta/meta.dart';&#10;&#10;class $name$BLoC extends LocalBLoC with _ComponentMixin {&#10;  $name$BLoC() : super('$sematics$');&#10;}&#10;&#10;mixin _ComponentMixin on LocalBLoC {&#10;  @override&#10;  List&lt;BaseIO&gt; get ioList =&gt; [];&#10;}" description="生成BLoC类" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="sematics" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="bloc_provider" value="class $biz$BlocProvider extends StatefulWidget {&#10;  final Widget child;&#10;  final $biz$Bloc bloc;&#10;&#10;  $biz$BlocProvider({&#10;    Key key,&#10;    @required this.child,&#10;    @required this.bloc,&#10;  }) : super(key: key);&#10;&#10;  @override&#10;  _BlocProviderState createState() =&gt; _BlocProviderState();&#10;&#10;  static $biz$Bloc of(BuildContext context) {&#10;    return (context.inheritFromWidgetOfExactType(_BlocProvider)&#10;            as _BlocProvider)&#10;        .bloc;&#10;  }&#10;}&#10;&#10;class _BlocProviderState extends State&lt;$biz$BlocProvider&gt; {&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return _BlocProvider(bloc: widget.bloc, child: widget.child);&#10;  }&#10;&#10;  @override&#10;  void dispose() {&#10;    widget.bloc.close();&#10;    super.dispose();&#10;  }&#10;}&#10;&#10;class _BlocProvider extends InheritedWidget {&#10;  final $biz$Bloc bloc;&#10;&#10;  _BlocProvider({&#10;    Key key,&#10;    @required this.bloc,&#10;    @required Widget child,&#10;  }) : super(key: key, child: child);&#10;&#10;  @override&#10;  bool updateShouldNotify(_BlocProvider old) =&gt; bloc != old.bloc;&#10;}&#10;" description="提供Bloc的widget" toReformat="false" toShortenFQNames="true">
+    <variable name="biz" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="io" value="final $name$ = $io$&lt;$type$&gt;(semantics: '$semantic$');" description="生成BaseIO模板" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="io" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="semantic" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+      <option name="DART_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="output" value="/// $desc$&#10;  final $name$ = Output&lt;Bean&gt;(&#10;    semantics: '$desc$',&#10;    trigger: () {&#10;      final param = Param()&#10;        ..action = ApiActions.$action$&#10;        ..baseInfo()&#10;        ..putParamMap({});&#10;      &#10;      return api.requestAs$response_type$(param.get());&#10;    },&#10;  );" description="生成BLoC中的Output模板" toReformat="false" toShortenFQNames="true">
+    <variable name="desc" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="action" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="response_type" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+      <option name="DART_STATEMENT" value="false" />
+      <option name="DART_TOPLEVEL" value="false" />
+    </context>
+  </template>
+</templateSet>

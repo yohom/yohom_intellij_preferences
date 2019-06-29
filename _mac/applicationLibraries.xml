@@ -1,0 +1,11 @@
+<application>
+  <component name="libraryTable">
+    <library name="scala-sdk-2.12.6">
+      <CLASSES />
+      <JAVADOC>
+        <root url="http://www.scala-lang.org/api/2.12.6/" />
+      </JAVADOC>
+      <SOURCES />
+    </library>
+  </component>
+</application>

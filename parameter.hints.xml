@@ -1,0 +1,13 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="Kotlin">
+        <added pattern="common.extensions.replaceBatch(sourcesAndDestination)" />
+        <added pattern="common.model.Variable(type,name)" />
+        <added pattern="kotlin.collections.joinToString(separator,prefix,postfix,limit,truncated,transform)" />
+        <added pattern="kotlin.text.replace(oldValue,newValue,ignoreCase)" />
+      </blacklist>
+    </blacklists>
+    <option id="SHOW_FUNCTION_HINT" value="true" />
+  </component>
+</application>
