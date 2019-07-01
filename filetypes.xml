@@ -9,6 +9,7 @@
       <mapping ext="lsc" type="PLAIN_TEXT" />
       <mapping ext="webarchive" type="PLAIN_TEXT" />
       <mapping ext="plist" type="PLAIN_TEXT" />
+      <mapping ext="tmpl" type="PLAIN_TEXT" />
       <mapping ext="info" type="PLAIN_TEXT" />
       <mapping ext="wav" type="PLAIN_TEXT" />
       <mapping ext="mk" type="PLAIN_TEXT" />
