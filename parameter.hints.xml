@@ -6,6 +6,7 @@
         <added pattern="common.model.Variable(type,name)" />
         <added pattern="kotlin.collections.joinToString(separator,prefix,postfix,limit,truncated,transform)" />
         <added pattern="kotlin.text.replace(oldValue,newValue,ignoreCase)" />
+        <added pattern="common.extensions.replaceParagraph(oldValue,newValue)" />
       </blacklist>
     </blacklists>
     <option id="SHOW_FUNCTION_HINT" value="true" />
