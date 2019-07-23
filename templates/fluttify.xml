@@ -1,0 +1,7 @@
+<templateSet group="fluttify">
+  <template name="ext" value="val ext = project.extensions.getByType(FluttifyExtension::class.java)" description="生成ext" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
