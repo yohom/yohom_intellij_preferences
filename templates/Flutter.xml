@@ -148,4 +148,9 @@
       <option name="DART_TOPLEVEL" value="false" />
     </context>
   </template>
+  <template name="catch" value="catchError(handle(context));" description="生成catchError(handle(context))" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
