@@ -190,9 +190,13 @@
           <option name="url" value="http://183.146.22.90:8099" />
           <option name="userName" value="BaoYuehong" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://183.146.22.90:8099/rkj_ios/moa.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/Github/App/Flutter" />
+    <option name="cloneParentDir" value="$USER_HOME$/Work/Ruikejia/moa" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="COLUMN_ORDER">
