@@ -7,6 +7,7 @@
       <mapping pattern="getFavoriteListJson" type="JSON" />
       <mapping pattern="README" type="Markdown" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
+      <mapping pattern="Podfile" type="PLAIN_TEXT" />
       <mapping ext="tmpl" type="PLAIN_TEXT" />
       <mapping ext="bundle" type="PLAIN_TEXT" />
       <mapping ext="wav" type="PLAIN_TEXT" />
