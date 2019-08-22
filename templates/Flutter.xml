@@ -100,7 +100,7 @@
       <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
-  <template name="screenstl" value="import 'package:flutter/material.dart';&#10;import 'package:decorated_flutter/decorated_flutter.dart'&#10;import '../../bloc/bloc.export.dart';&#10;&#10;class $name$Screen extends StatelessWidget {&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return RuntimeScaffold&lt;$name$BLoC&gt;(&#10;      appBar: AppBar(title: Text('$name$')),&#10;      body: Center(child: Text('$name$')),&#10;    );&#10;  }&#10;}&#10;&#10;" description="生成screen简版模板代码" toReformat="false" toShortenFQNames="true">
+  <template name="screenstl" value="import 'package:flutter/material.dart';&#10;import 'package:decorated_flutter/decorated_flutter.dart';&#10;import '../../bloc/bloc.export.dart';&#10;&#10;class $name$Screen extends StatelessWidget {&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return RuntimeScaffold&lt;$name$BLoC&gt;(&#10;      appBar: AppBar(title: Text('$name$')),&#10;      body: Center(child: Text('$name$')),&#10;    );&#10;  }&#10;}&#10;&#10;" description="生成screen简版模板代码" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART_TOPLEVEL" value="true" />
