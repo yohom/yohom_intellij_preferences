@@ -11,5 +11,6 @@
       </blacklist>
     </blacklists>
     <option id="SHOW_FUNCTION_HINT" value="true" />
+    <option id="SHOW_LOCAL_VARIABLE_HINT" value="true" />
   </component>
 </application>
