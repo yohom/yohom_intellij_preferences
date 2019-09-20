@@ -8,6 +8,7 @@
         <added pattern="kotlin.text.replace(oldValue,newValue,ignoreCase)" />
         <added pattern="common.extensions.replaceParagraph(oldValue,newValue)" />
         <added pattern="me.yohom.fluttify.common.extensions.replaceParagraph(oldValue,newValue)" />
+        <added pattern="kotlin.text.contains(other,ignoreCase)" />
       </blacklist>
     </blacklists>
     <option id="SHOW_FUNCTION_HINT" value="true" />
