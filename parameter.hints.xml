@@ -9,6 +9,12 @@
         <added pattern="common.extensions.replaceParagraph(oldValue,newValue)" />
         <added pattern="me.yohom.fluttify.common.extensions.replaceParagraph(oldValue,newValue)" />
         <added pattern="kotlin.text.contains(other,ignoreCase)" />
+        <added pattern="me.yohom.fluttify.extensions.mustTrue(message,subject)" />
+        <added pattern="me.yohom.fluttify.extensions.mustFalse(message,subject)" />
+        <added pattern="me.yohom.fluttify.extensions.mustTrue(message,mapper)" />
+        <added pattern="me.yohom.fluttify.extensions.mustFalse(message,mapper)" />
+        <added pattern="me.yohom.fluttify.extensions.must(message,mapper)" />
+        <added pattern="me.yohom.fluttify.extensions.mustNot(message,mapper)" />
       </blacklist>
     </blacklists>
     <option id="SHOW_FUNCTION_HINT" value="true" />
