@@ -15,6 +15,7 @@
         <added pattern="me.yohom.fluttify.extensions.mustFalse(message,mapper)" />
         <added pattern="me.yohom.fluttify.extensions.must(message,mapper)" />
         <added pattern="me.yohom.fluttify.extensions.mustNot(message,mapper)" />
+        <added pattern="me.yohom.fluttify.extensions.replaceParagraph(oldValue,newValue)" />
       </blacklist>
     </blacklists>
     <option id="SHOW_FUNCTION_HINT" value="true" />
