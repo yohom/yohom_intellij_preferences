@@ -18,6 +18,7 @@
         <added pattern="me.yohom.fluttify.extensions.replaceParagraph(oldValue,newValue)" />
       </blacklist>
     </blacklists>
+    <option id="SHOW_PROPERTY_HINT" value="true" />
     <option id="SHOW_FUNCTION_HINT" value="true" />
   </component>
 </application>
