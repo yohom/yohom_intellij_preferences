@@ -16,6 +16,7 @@
         <added pattern="me.yohom.fluttify.extensions.must(message,mapper)" />
         <added pattern="me.yohom.fluttify.extensions.mustNot(message,mapper)" />
         <added pattern="me.yohom.fluttify.extensions.replaceParagraph(oldValue,newValue)" />
+        <added pattern="java.lang.ProcessBuilder.command(command)" />
       </blacklist>
     </blacklists>
     <option id="SHOW_PROPERTY_HINT" value="true" />
