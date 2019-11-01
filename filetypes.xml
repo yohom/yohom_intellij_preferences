@@ -8,6 +8,7 @@
       <mapping pattern="README" type="Markdown" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
       <mapping pattern="Podfile" type="PLAIN_TEXT" />
+      <mapping pattern="id_rsa" type="PLAIN_TEXT" />
       <mapping ext="tmpl" type="PLAIN_TEXT" />
       <mapping ext="lsc" type="PLAIN_TEXT" />
       <mapping ext="webarchive" type="PLAIN_TEXT" />
