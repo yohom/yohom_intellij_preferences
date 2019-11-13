@@ -2,6 +2,7 @@
   <component name="TipsStore">
     <option name="globalFirstStartUp" value="false" />
     <entry projectName="amap_map_fluttify" firstStartUp="false" />
+    <entry projectName="amap_search_fluttify" firstStartUp="false" />
     <entry projectName="authentication" firstStartUp="false" />
     <entry projectName="decorated_flutter" firstStartUp="false" />
     <entry projectName="fluttify-core" firstStartUp="false" />
