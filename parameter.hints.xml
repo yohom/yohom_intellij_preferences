@@ -18,6 +18,7 @@
         <added pattern="me.yohom.fluttify.extensions.replaceParagraph(oldValue,newValue)" />
         <added pattern="java.lang.ProcessBuilder.command(command)" />
         <added pattern="kotlin.text.Regex(pattern)" />
+        <added pattern="me.yohom.fluttify.extensions.joinToStringX(separator,prefix,suffix,transform)" />
       </blacklist>
     </blacklists>
     <option id="SHOW_PROPERTY_HINT" value="true" />
