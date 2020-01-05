@@ -1,0 +1,11 @@
+<templateSet group="test">
+  <template name="nest" value="@Nested&#10;@DisplayName(&quot;Test for $display_name$&quot;)&#10;inner class $display_name$Test {&#10;    @Test&#10;    fun $test_name$() {&#10;        $content$&#10;    }&#10;}" description="嵌套测试类" toReformat="false" toShortenFQNames="true">
+    <variable name="display_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="test_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="KOTLIN_CLASS" value="true" />
+    </context>
+  </template>
+</templateSet>
