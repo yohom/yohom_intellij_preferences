@@ -6,6 +6,7 @@
       <mapping pattern="README" type="Markdown" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
       <mapping pattern="Podfile" type="PLAIN_TEXT" />
+      <mapping pattern="rsa_private" type="PLAIN_TEXT" />
       <mapping pattern="id_rsa" type="PLAIN_TEXT" />
       <mapping ext="zh" type="PLAIN_TEXT" />
       <mapping ext="lsc" type="PLAIN_TEXT" />
