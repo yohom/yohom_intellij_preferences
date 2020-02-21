@@ -1,6 +1,7 @@
 <application>
   <component name="TipsStore">
     <option name="globalFirstStartUp" value="false" />
+    <entry projectName="$USER_HOME$/Downloads/flutter packages master packages-animations" firstStartUp="false" />
     <entry projectName="$USER_HOME$/Downloads/flutter_map_demo-master" firstStartUp="false" />
     <entry projectName="$USER_HOME$/Github/Demo/Flutter/bug_reproduce" firstStartUp="false" />
     <entry projectName="$USER_HOME$/Github/Demo/Gradle/nested_dsl" firstStartUp="false" />
