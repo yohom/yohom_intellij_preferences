@@ -1,5 +1,5 @@
 <templateSet group="bloc">
-  <template name="bloc" value="final bloc = BLoCProvider.of&lt;$BLoC$&gt;(context);" description="获取Bloc的代码" toReformat="false" toShortenFQNames="true">
+  <template name="bloc" value="final bloc = context.of&lt;$BLoC$&gt;();" description="获取Bloc的代码" toReformat="false" toShortenFQNames="true">
     <variable name="BLoC" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART_STATEMENT" value="true" />
