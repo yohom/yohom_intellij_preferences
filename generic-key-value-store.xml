@@ -2,7 +2,7 @@
   <component name="GenericKVStore">
     <option name="map">
       <map>
-        <entry key="com.alibabacloud.intellij.model.UploadFileUIModelECS47.244.104.66" value="eyJpc0ZpbGUiOnRydWUsInVybCI6Ii9Vc2Vycy95b2hvbS8ubTIvcmVwb3NpdG9yeS9tZS95b2hvbS9mbHV0dGlmeS1jb3JlLzAuNC4xL2ZsdXR0aWZ5LWNvcmUtMC40LjEuamFyIiwibG9jYXRpb24iOiIvaG9tZS9mbHV0dGlmeS8ubTIvcmVwb3NpdG9yeS9tZS95b2hvbS9mbHV0dGlmeS1jb3JlLzAuNC4xLyIsImNvbW1hbmQiOiIifQ==" />
+        <entry key="com.alibabacloud.intellij.model.UploadFileUIModelECS47.244.104.66" value="eyJpc0ZpbGUiOnRydWUsInVybCI6Ii9Vc2Vycy95b2hvbS9HaXRodWIvTWUvQWxsL2ZsdXR0aWZ5L2ZsdXR0aWZ5X2luZnJhL2ZsdXR0aWZ5X2JhY2tlbmQvYnVpbGQvbGlicy9mbHV0dGlmeV9iYWNrZW5kLTAuMC4xLmphciIsImxvY2F0aW9uIjoiL2hvbWUvZmx1dHRpZnkvYmFja2VuZC8iLCJjb21tYW5kIjoiIn0=" />
       </map>
     </option>
   </component>
