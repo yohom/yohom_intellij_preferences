@@ -44,13 +44,11 @@
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="APP_BAR" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="BODY" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="stful" value="import 'package:flutter/material.dart';&#10;&#10;class $NAME$ extends StatefulWidget {&#10;  @override&#10;  _$NAME$State createState() =&gt; _$NAME$State();&#10;}&#10;&#10;class _$NAME$State extends State&lt;$NAME$&gt; {&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return Scaffold(&#10;      appBar: $APP_BAR$,&#10;      body: $BODY$,&#10;    );&#10;  }&#10;}&#10;" description="New Stateful widget" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="APP_BAR" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="BODY" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="screenstf" value="import 'package:flutter/material.dart';&#10;&#10;class $name$Screen extends StatefulWidget {&#10;  @override&#10;  _$name$ScreenState createState() =&gt; _$name$ScreenState();&#10;}&#10;&#10;class _$name$ScreenState extends State&lt;$name$Screen&gt; {&#10;&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return Scaffold(&#10;      appBar: AppBar(title: Text('$name$')),&#10;      body: Center(child: Text('$name$')),&#10;    );&#10;  }&#10;}&#10;" description="生成screen模板代码" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
