@@ -24,6 +24,7 @@
     <keyboard-shortcut first-keystroke="ctrl i" />
   </action>
   <action id="EditorToggleCase" />
+  <action id="FileChooser.TogglePathShowing" />
   <action id="FindNext" />
   <action id="FindPrevious" />
   <action id="FindUsages">
