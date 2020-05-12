@@ -153,4 +153,11 @@
       <option name="DART_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="handle" value="() =&gt; _handle$name$(context)" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+      <option name="DART_TOPLEVEL" value="false" />
+    </context>
+  </template>
 </templateSet>
