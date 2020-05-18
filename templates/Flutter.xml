@@ -4,13 +4,10 @@
       <option name="DART_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="perform" value="Future&lt;$type$&gt; perform$biz$() {&#10;  $arguments$&#10;  &#10;  $biz_check$&#10;    &#10;  final param = Param()&#10;    ..action = $action$&#10;    ..baseInfo()&#10;    ..putParamMap({$params$});&#10;    &#10;   return api.requestAsBean(param.get());&#10;}" description="生成perform**模板" toReformat="false" toShortenFQNames="true">
-    <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="perform" value="Future&lt;void&gt; perform$biz$() {&#10;  $arguments$&#10;  &#10;  try {&#10;    Biz.check$biz$();&#10;  } catch (e) {&#10;    return Future.error(e);&#10;  }&#10;    &#10;  return Api.$request$();&#10;}" description="生成perform**模板" toReformat="false" toShortenFQNames="true">
     <variable name="biz" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="arguments" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="biz_check" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="action" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="params" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="request" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART" value="true" />
       <option name="DART_STATEMENT" value="false" />
