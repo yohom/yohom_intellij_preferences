@@ -4,7 +4,7 @@
       <option name="DART_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="perform" value="Future&lt;void&gt; perform$biz$() {&#10;  $arguments$&#10;  &#10;  try {&#10;    Biz.check$biz$();&#10;  } catch (e) {&#10;    return Future.error(e);&#10;  }&#10;    &#10;  return Api.$request$();&#10;}" description="生成perform**模板" toReformat="false" toShortenFQNames="true">
+  <template name="perform" value="Future&lt;void&gt; perform$biz$() async {&#10;  $arguments$&#10;  &#10;  try {&#10;    Biz.check$biz$();&#10;  } catch (e) {&#10;    return Future.error(e);&#10;  }&#10;    &#10;  return Api.$request$();&#10;}" description="生成perform**模板" toReformat="false" toShortenFQNames="true">
     <variable name="biz" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="arguments" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="request" expression="" defaultValue="" alwaysStopAt="true" />
