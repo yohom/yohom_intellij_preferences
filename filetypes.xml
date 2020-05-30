@@ -13,6 +13,7 @@
       <mapping ext="info" type="PLAIN_TEXT" />
       <mapping ext="podspec" type="PLAIN_TEXT" />
       <mapping ext="plist" type="PLAIN_TEXT" />
+      <mapping ext="face-android" type="PLAIN_TEXT" />
       <mapping ext="lsc" type="PLAIN_TEXT" />
       <mapping ext="tmpl" type="PLAIN_TEXT" />
       <mapping ext="pub" type="PLAIN_TEXT" />
