@@ -4,7 +4,7 @@
       <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="platform" value="Future&lt;$return$&gt; $name$($args$) async {&#10;  await platform(&#10;    android: (pool) async {&#10;      $android$&#10;    },&#10;    ios: (pool) async {&#10;      $ios$&#10;    },&#10;  );&#10;}" description="生成platform方法" toReformat="false" toShortenFQNames="true">
+  <template name="platform" value="Future&lt;$return$&gt; $name$($args$) async {&#10;  return platform(&#10;    android: (pool) async {&#10;      $android$&#10;    },&#10;    ios: (pool) async {&#10;      $ios$&#10;    },&#10;  );&#10;}" description="生成platform方法" toReformat="false" toShortenFQNames="true">
     <variable name="return" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="args" expression="" defaultValue="" alwaysStopAt="true" />
