@@ -17,6 +17,7 @@
       <mapping ext="lsc" type="PLAIN_TEXT" />
       <mapping ext="tmpl" type="PLAIN_TEXT" />
       <mapping ext="pub" type="PLAIN_TEXT" />
+      <mapping ext="face-ios" type="PLAIN_TEXT" />
       <mapping ext="pro" type="PLAIN_TEXT" />
       <mapping ext="pem" type="PLAIN_TEXT" />
       <mapping ext="bundle" type="PLAIN_TEXT" />
