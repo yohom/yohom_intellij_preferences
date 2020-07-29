@@ -6,26 +6,26 @@
       <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="README" type="Markdown" />
       <mapping pattern="Podfile" type="PLAIN_TEXT" />
-      <mapping pattern="id_rsa" type="PLAIN_TEXT" />
       <mapping pattern="rsa_private" type="PLAIN_TEXT" />
+      <mapping pattern="id_rsa" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
-      <mapping ext="wav" type="PLAIN_TEXT" />
-      <mapping ext="info" type="PLAIN_TEXT" />
-      <mapping ext="podspec" type="PLAIN_TEXT" />
       <mapping ext="plist" type="PLAIN_TEXT" />
-      <mapping ext="face-android" type="PLAIN_TEXT" />
-      <mapping ext="lsc" type="PLAIN_TEXT" />
-      <mapping ext="tmpl" type="PLAIN_TEXT" />
-      <mapping ext="pub" type="PLAIN_TEXT" />
-      <mapping ext="face-ios" type="PLAIN_TEXT" />
       <mapping ext="pro" type="PLAIN_TEXT" />
-      <mapping ext="pem" type="PLAIN_TEXT" />
       <mapping ext="bundle" type="PLAIN_TEXT" />
-      <mapping ext="zh" type="PLAIN_TEXT" />
       <mapping ext="webarchive" type="PLAIN_TEXT" />
+      <mapping ext="podspec" type="PLAIN_TEXT" />
+      <mapping ext="pub" type="PLAIN_TEXT" />
+      <mapping ext="wav" type="PLAIN_TEXT" />
+      <mapping ext="tmpl" type="PLAIN_TEXT" />
+      <mapping ext="pem" type="PLAIN_TEXT" />
+      <mapping ext="lsc" type="PLAIN_TEXT" />
+      <mapping ext="zh" type="PLAIN_TEXT" />
+      <mapping ext="face-android" type="PLAIN_TEXT" />
+      <mapping ext="info" type="PLAIN_TEXT" />
+      <mapping ext="face-ios" type="PLAIN_TEXT" />
+      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="dockerfile" approved="true" type="textmate" />
