@@ -39,4 +39,13 @@
       <option name="DART_TOPLEVEL" value="false" />
     </context>
   </template>
+  <template name="subscriber" value="Subscriber&lt;$vm$&gt;(&#10;  stream: bloc.$io$.stream,&#10;  builder: (data) =&gt; $widget$(data),&#10;)," description="生成subscriber" toReformat="false" toShortenFQNames="true">
+    <variable name="vm" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="io" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="widget" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+      <option name="DART_TOPLEVEL" value="false" />
+    </context>
+  </template>
 </templateSet>
