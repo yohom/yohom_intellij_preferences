@@ -11,7 +11,6 @@
     <context>
       <option name="DART" value="true" />
       <option name="DART_STATEMENT" value="false" />
-      <option name="DART_TOPLEVEL" value="false" />
     </context>
   </template>
   <template name="uni" value="static UniqueKey uniqueKey = UniqueKey();&#10;&#10;$name$() : super(key: uniqueKey);&#10;&#10;" description="生成UniqueKey" toReformat="false" toShortenFQNames="true">
