@@ -156,4 +156,21 @@
       <option name="DART_TOPLEVEL" value="false" />
     </context>
   </template>
+  <template name="launch" value="static void launch(BuildContext context) {&#10;  context.navigator.push(&#10;    DecoratedRoute&lt;$name$BLoC, void&gt;(&#10;      screen: $name$Screen(),&#10;      bloc: $name$BLoC(),&#10;      init: (bloc) {&#10;      },&#10;    ),&#10;  );&#10;}" description="打开页面" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+      <option name="DART_STATEMENT" value="false" />
+      <option name="DART_TOPLEVEL" value="false" />
+    </context>
+  </template>
+  <template name="launch_named" value="static void launch(BuildContext context$args$) {&#10;  context.navigator.pushNamed($route$);&#10;}" description="打开页面" toReformat="false" toShortenFQNames="true">
+    <variable name="args" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="route" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+      <option name="DART_STATEMENT" value="false" />
+      <option name="DART_TOPLEVEL" value="false" />
+    </context>
+  </template>
 </templateSet>
