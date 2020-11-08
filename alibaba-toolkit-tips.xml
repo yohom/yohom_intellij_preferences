@@ -1,24 +1,114 @@
 <application>
   <component name="TipsStore">
     <option name="globalFirstStartUp" value="false" />
+    <entry projectName="$USER_HOME$/Downloads/FirebaseExtended flutterfire master packages-firebase_ml_vision" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Downloads/MPFlutterChart-master/mp_chart" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Downloads/amap_map_fluttify-develop3" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Downloads/app-flutter" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Downloads/azlistview-master" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Downloads/bmap_map_fluttify" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Downloads/demo/demo" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Downloads/emoji_picker-master" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Downloads/flutter packages master packages-animations" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Downloads/flutter plugins master packages-android_alarm_manager" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Downloads/flutter-intl-plugin-sample-app-master" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Downloads/flutter_app2" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Downloads/flutter_data_view" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Downloads/flutter_ijkplayer-master" firstStartUp="false" />
     <entry projectName="$USER_HOME$/Downloads/flutter_map_demo-master" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Downloads/flutter_nim-master" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Downloads/flutter_tiktok-master" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Downloads/geolocation-master" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Downloads/hello_world" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Downloads/idiom_game" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Downloads/jpush-flutter-plugin-master" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Downloads/linkmic" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Downloads/map_flq" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Downloads/quanzi-flutter" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Downloads/quanzi_flutter" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Downloads/test/test1" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Downloads/圈子/linkmic" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Downloads/足球有道/app-flutter" firstStartUp="false" />
     <entry projectName="$USER_HOME$/Github/Demo/Flutter/bug_reproduce" firstStartUp="false" />
     <entry projectName="$USER_HOME$/Github/Demo/Gradle/nested_dsl" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/AndroidSDK/other_fluttify/output-project/other_fluttify" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/AndroidSDK/printer_fluttify/output-project/printer_fluttify" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/AndroidSDK/recognition_fluttify" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/AndroidSDK/recognition_fluttify/output-project/recognition_fluttify" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/AndroidSDK/scale_all_fluttify" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/AndroidSDK/scale_fluttify/output-project/scale_fluttify" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/agora_faceunity_flutter/Agora-Flutter-Quickstart" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/agora_faceunity_flutter/Flutter-SDK" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/agora_faceunity_flutter/agora_rtc_engine" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/agora_nama_flutter/agora_nama_flutter" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/ali_rtc_fluttify/output-project/ali_rtc_fluttify" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/amap_navi/output-project/amap_navi_fluttify" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/arcsoft/age_estimate_fluttify/output-project/age_estimate_fluttify" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/arcsoft/arcface/output-project/arcface_fluttify" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/arcsoft/arcface_flutter" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/arcsoft/face_recognition/output-project/face_recognition_fluttify" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/arcsoft/facedetection_flutter" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/arcsoft/ffi_generator" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/baidu_asr/output-project/baidu_asr_fluttify" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/baidu_face_flutter" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/baidu_map/bmap_core_fluttify" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/baidu_map/bmap_core_fluttify/output-project/baidu_map_fluttify" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/baidu_map/bmap_core_fluttify/output-project/bmap_core_fluttify" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/baidu_map/bmap_map_fluttify/output-project/bmap_map_fluttify" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/baoqu/output-project/cm_game_fluttify" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/buzhainiao/hello_world" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/bytedance/output-project/bytedance_fluttify" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/camera" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/ddshare/output-project/ddshare_fluttify" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/easemob_im" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/easemob_im/output-project" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/easemob_im/output-project/easemob_im_fluttify" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/faceunity_nama/output-project/faceunity_nama_fluttify" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/gdt/output-project/gdt_fluttify" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/hanyin_printer/output-project/hanyin_printer_fluttify" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/huawei_pusher/output-project/huawei_live_fluttify" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/k17_reader/output-project/k17_reader_fluttify" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/map_sample" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/nama/output-project/nama_fluttify" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/netease_im/output-project/netease_im_fluttify" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/netease_live/output-project/netease_live_fluttify" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/new_project_test" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/nim/output-project/nim_fluttify" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/reader/output-project/reader_fluttify" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/shadow/output-project/shadow_fluttify" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/tencent_live/output-project/tencent_live_fluttify" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/tencent_live/output-project/tengcent_live_fluttify" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/tencent_map/output-project/tmap_map_fluttify" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/tmap_map_fluttify/output-project/tmap_map_fluttify" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/trace_demo" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/untitled" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/wr_onekey/output-project/wr_onekey_fluttify" firstStartUp="false" />
     <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/xfiat/output-project/xfiat_fluttify" firstStartUp="false" />
     <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/xfiat/output-project/xfiat_fluttify/android/src/main/java/com/fluttify/xfiat_fluttify" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/3rd_party/xftts/output-project/xftts_fluttify" firstStartUp="false" />
     <entry projectName="$USER_HOME$/Github/Me/All/fluttify/amap/amap_all_fluttify" firstStartUp="false" />
     <entry projectName="$USER_HOME$/Github/Me/All/fluttify/amap/amap_clone_fluttify" firstStartUp="false" />
     <entry projectName="$USER_HOME$/Github/Me/All/fluttify/amap/amap_core_fluttify/output-project/amap_core_fluttify" firstStartUp="false" />
     <entry projectName="$USER_HOME$/Github/Me/All/fluttify/amap/amap_location_fluttify/output-project/amap_location_fluttify" firstStartUp="false" />
     <entry projectName="$USER_HOME$/Github/Me/All/fluttify/amap/amap_map_fluttify/output-project/amap_map_fluttify" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/amap/amap_navi_fluttify" firstStartUp="false" />
     <entry projectName="$USER_HOME$/Github/Me/All/fluttify/amap/amap_search_fluttify" firstStartUp="false" />
     <entry projectName="$USER_HOME$/Github/Me/All/fluttify/amap/amap_search_fluttify/output-project/amap_search_fluttify" firstStartUp="false" />
     <entry projectName="$USER_HOME$/Github/Me/All/fluttify/amap/amap_swift_test" firstStartUp="false" />
     <entry projectName="$USER_HOME$/Github/Me/All/fluttify/amap/location_picker_fluttify" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/baidu_map/bmap_all_fluttify" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/baidu_map/bmap_core_fluttify/output-project/bmap_core_fluttify" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/baidu_map/bmap_location_fluttify/output-project/bmap_location_fluttify" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/baidu_map/bmap_map_fluttify/output-project/bmap_map_fluttify" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/baidu_map/bmap_utils_fluttify/output-project/bmap_utils_fluttify" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/fluttify_infra" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/fluttify_infra/core_location_fluttify" firstStartUp="false" />
     <entry projectName="$USER_HOME$/Github/Me/All/fluttify/fluttify_infra/fluttify-core" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/fluttify_infra/fluttify-core-example" firstStartUp="false" />
     <entry projectName="$USER_HOME$/Github/Me/All/fluttify/fluttify_infra/fluttify_backend" firstStartUp="false" />
     <entry projectName="$USER_HOME$/Github/Me/All/fluttify/fluttify_infra/fluttify_frontend/fluttify_flutter" firstStartUp="false" />
     <entry projectName="$USER_HOME$/Github/Me/All/fluttify/fluttify_infra/fluttify_service" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/fluttify_infra/foundation_core_video_fluttify" firstStartUp="false" />
     <entry projectName="$USER_HOME$/Github/Me/All/fluttify/fluttify_infra/foundation_fluttify" firstStartUp="false" />
     <entry projectName="$USER_HOME$/Github/Me/All/fluttify/fluttify_infra/security/jvm-ti-test" firstStartUp="false" />
     <entry projectName="$USER_HOME$/Github/Me/All/fluttify/jiguang/janalytics" firstStartUp="false" />
@@ -26,11 +116,49 @@
     <entry projectName="$USER_HOME$/Github/Me/All/fluttify/jiguang/jcore_fluttify/output-project/jcore_fluttify" firstStartUp="false" />
     <entry projectName="$USER_HOME$/Github/Me/All/fluttify/jiguang/jmessage_fluttify/output-project/jmessage_fluttify" firstStartUp="false" />
     <entry projectName="$USER_HOME$/Github/Me/All/fluttify/jiguang/untitled" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/tim/output-project/tim_fluttify" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/uni_push" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/fluttify/uni_push/output-project/uni_push_fluttify" firstStartUp="false" />
     <entry projectName="$USER_HOME$/Github/Me/All/git_engine/git_engine_mobile" firstStartUp="false" />
     <entry projectName="$USER_HOME$/Github/Me/All/git_engine/git_engine_server" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/outsourcing/contacts_flutter" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/outsourcing/lbs_flutter" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/outsourcing/map_proto" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/outsourcing/map_proto_client" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/outsourcing/quanzi-flutter" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/outsourcing/quanzi/contacts_flutter" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/outsourcing/quanzi/quanzi-flutter" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/outsourcing/quanzi/quanzi_app/quanzi_flutter" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/outsourcing/quanzi/quanzi_flutter" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/outsourcing/quanzi_flutter" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/outsourcing/swift_test" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/outsourcing/untitled" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/outsourcing/圈子/contacts_flutter" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/tesla/modou" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/tesla/tesla" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/utils/FlutterTencentImPlugin" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/utils/decorated_flutter" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/utils/demo_widgets" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/utils/feat_template_gen" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/utils/jpush-flutter-plugin" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/utils/json_to_dart" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Me/All/utils/res_gen" firstStartUp="false" />
     <entry projectName="$USER_HOME$/Github/Util/Flutter/flutter_plugin/aliyun_video" firstStartUp="false" />
     <entry projectName="$USER_HOME$/Github/Util/Flutter/json_to_dart" firstStartUp="false" />
     <entry projectName="$USER_HOME$/Github/Util/Flutter/package/decorated_flutter" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Util/Flutter/package/demo_widgets" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Github/Util/Flutter/package/github.dart" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Library/Flutter/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_bmfmap-1.0.1" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Work/Ruikejia/foundation_core_video_fluttify" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Work/Ruikejia/moa/moa_flutter" firstStartUp="false" />
+    <entry projectName="$USER_HOME$/Work/Ruikejia/ygzl_flutter" firstStartUp="false" />
+    <entry projectName="/Volumes/X/GitHub/Me/git_engine/git_engine_mobile" firstStartUp="false" />
+    <entry projectName="/Volumes/X/GitHub/Util/Flutter/package/decorated_flutter" firstStartUp="false" />
+    <entry projectName="/Volumes/X/Working/outsourcing/hoo/hoo_flutter" firstStartUp="false" />
+    <entry projectName="/Volumes/X/Working/outsourcing/map_sample" firstStartUp="false" />
+    <entry projectName="/Volumes/X/工作/外包/hoo/hoo_flutter" firstStartUp="false" />
+    <entry projectName="/Volumes/yohom/private/github/Me/All/git_engine/git_engine_mobile" firstStartUp="false" />
+    <entry projectName="/Volumes/yohom/public/工作/瑞客佳/代码/rkj_algorithm_flutter" firstStartUp="false" />
     <entry projectName="7E-50-49-51-E5-F9-/Users/yohom/Github/Me/All/fluttify/amap/location_picker_fluttify" firstStartUp="false" />
     <entry projectName="7E-50-49-51-E5-F9-/Users/yohom/Github/Me/All/fluttify/fluttify_infra/fluttify_frontend/fluttify_flutter" firstStartUp="false" />
     <entry projectName="98-01-A7-B3-BB-5F-/Users/yohom/Downloads/ddshare_fluttify-develop" firstStartUp="false" />

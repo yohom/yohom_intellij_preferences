@@ -4,17 +4,13 @@
       <option name="DART_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="perform" value="Future&lt;$type$&gt; perform$biz$() {&#10;  $arguments$&#10;  &#10;  $biz_check$&#10;    &#10;  final param = Param()&#10;    ..action = $action$&#10;    ..baseInfo()&#10;    ..putParamMap({$params$});&#10;    &#10;   return api.requestAsBean(param.get());&#10;}" description="生成perform**模板" toReformat="false" toShortenFQNames="true">
-    <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="perform" value="Future&lt;void&gt; perform$biz$() async {&#10;  $arguments$&#10;  &#10;  try {&#10;    Biz.check$biz$();&#10;  } catch (e) {&#10;    return Future.error(e);&#10;  }&#10;    &#10;  return Api.$request$();&#10;}" description="生成perform**模板" toReformat="false" toShortenFQNames="true">
     <variable name="biz" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="arguments" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="biz_check" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="action" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="params" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="request" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART" value="true" />
       <option name="DART_STATEMENT" value="false" />
-      <option name="DART_TOPLEVEL" value="false" />
     </context>
   </template>
   <template name="uni" value="static UniqueKey uniqueKey = UniqueKey();&#10;&#10;$name$() : super(key: uniqueKey);&#10;&#10;" description="生成UniqueKey" toReformat="false" toShortenFQNames="true">
@@ -86,7 +82,7 @@
       <option name="DART_STATEMENT" value="false" />
     </context>
   </template>
-  <template name="singleton" value="static $type$ _instance;&#10;&#10;$type$._();&#10;&#10;factory $type$() {&#10;  if (_instance == null) {&#10;    _instance = $type$._();&#10;    return _instance;&#10;  } else {&#10;    return _instance;&#10;  }&#10;}" description="生成单例模板" toReformat="false" toShortenFQNames="true">
+  <template name="singleton" value="static $type$ instance = $type$._();&#10;&#10;$type$._();" description="生成单例模板" toReformat="false" toShortenFQNames="true">
     <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART" value="true" />
@@ -98,7 +94,7 @@
       <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
-  <template name="screenstl" value="import 'package:flutter/material.dart';&#10;import 'package:decorated_flutter/decorated_flutter.dart';&#10;import '../../bloc/bloc.export.dart';&#10;&#10;class $name$Screen extends StatelessWidget {&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return RuntimeScaffold&lt;$name$BLoC&gt;(&#10;      appBar: AppBar(title: Text('$name$')),&#10;      body: Center(child: Text('$name$')),&#10;    );&#10;  }&#10;}&#10;&#10;" description="生成screen简版模板代码" toReformat="false" toShortenFQNames="true">
+  <template name="screenstl" value="import 'package:flutter/material.dart';&#10;import 'package:decorated_flutter/decorated_flutter.dart';&#10;&#10;class $name$Screen extends StatelessWidget {&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return Scaffold(&#10;      appBar: AppBar(title: Text('$name$')),&#10;      body: Center(child: Text('$name$')),&#10;    );&#10;  }&#10;}&#10;&#10;" description="生成screen简版模板代码" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART_TOPLEVEL" value="true" />
@@ -149,6 +145,30 @@
   <template name="catch" value="catchError(handle(context));" description="生成catchError(handle(context))" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="DART_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="handle" value="() =&gt; _handle$name$(context)" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+      <option name="DART_TOPLEVEL" value="false" />
+    </context>
+  </template>
+  <template name="launch" value="static void launch(BuildContext context) {&#10;  context.navigator.push(&#10;    DecoratedRoute&lt;$name$BLoC, void&gt;(&#10;      screen: $name$Screen._(),&#10;      bloc: $name$BLoC(),&#10;      init: (bloc) {&#10;      },&#10;    ),&#10;  );&#10;}&#10;&#10;// 禁止直接实例化&#10;$name$Screen._();" description="打开页面" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+      <option name="DART_STATEMENT" value="false" />
+      <option name="DART_TOPLEVEL" value="false" />
+    </context>
+  </template>
+  <template name="launch_named" value="static void launch(BuildContext context$args$) {&#10;  context.navigator.pushNamed($route$);&#10;}" description="打开页面" toReformat="false" toShortenFQNames="true">
+    <variable name="args" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="route" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+      <option name="DART_STATEMENT" value="false" />
+      <option name="DART_TOPLEVEL" value="false" />
     </context>
   </template>
 </templateSet>

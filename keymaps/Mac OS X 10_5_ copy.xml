@@ -24,6 +24,7 @@
     <keyboard-shortcut first-keystroke="ctrl i" />
   </action>
   <action id="EditorToggleCase" />
+  <action id="FileChooser.TogglePathShowing" />
   <action id="FindNext" />
   <action id="FindPrevious" />
   <action id="FindUsages">
@@ -99,13 +100,17 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
+  <action id="antlr.Generate" />
   <action id="flutter.androidstudio.open">
     <keyboard-shortcut first-keystroke="shift meta a" />
   </action>
-  <action id="flutter.packages.get">
+  <action id="flutter.packages.upgrade">
+    <keyboard-shortcut first-keystroke="shift meta u" />
+  </action>
+  <action id="flutter.pub.get">
     <keyboard-shortcut first-keystroke="shift meta g" />
   </action>
-  <action id="flutter.packages.upgrade">
+  <action id="flutter.pub.upgrade">
     <keyboard-shortcut first-keystroke="shift meta u" />
   </action>
   <action id="flutter.xcode.open">

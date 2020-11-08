@@ -3,5 +3,6 @@
     <notification groupId="Framework Detection" displayType="NONE" />
     <notification groupId="izhangzhihao.rainbow.brackets_UPDATE" displayType="NONE" shouldLog="false" />
     <notification groupId="Packages version checking" displayType="NONE" />
+    <notification groupId="Plugins Suggestion" displayType="NONE" />
   </component>
 </application>

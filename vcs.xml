@@ -198,6 +198,10 @@
           <option name="url" value="http://github.com&quot;" />
           <option name="userName" value="yohom" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://git.1024web.cn:3000" />
+          <option name="userName" value="yohom" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Work/Ruikejia/moa" />

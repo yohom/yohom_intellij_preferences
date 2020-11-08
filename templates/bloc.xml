@@ -1,5 +1,5 @@
 <templateSet group="bloc">
-  <template name="bloc" value="final bloc = BLoCProvider.of&lt;$BLoC$&gt;(context);" description="获取Bloc的代码" toReformat="false" toShortenFQNames="true">
+  <template name="bloc" value="final bloc = context.of&lt;$BLoC$&gt;();" description="获取Bloc的代码" toReformat="false" toShortenFQNames="true">
     <variable name="BLoC" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART_STATEMENT" value="true" />
@@ -36,6 +36,15 @@
     <context>
       <option name="DART" value="true" />
       <option name="DART_STATEMENT" value="false" />
+      <option name="DART_TOPLEVEL" value="false" />
+    </context>
+  </template>
+  <template name="subscriber" value="Subscriber&lt;$vm$&gt;(&#10;  stream: bloc.$io$.stream,&#10;  builder: (data) =&gt; $widget$(data),&#10;)," description="生成subscriber" toReformat="false" toShortenFQNames="true">
+    <variable name="vm" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="io" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="widget" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
       <option name="DART_TOPLEVEL" value="false" />
     </context>
   </template>
