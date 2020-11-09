@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="getFavoriteListJson" type="JSON" />
       <mapping ext="gradle.kts" type="Kotlin" />
+      <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="README" type="Markdown" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
       <mapping pattern="Podfile" type="PLAIN_TEXT" />
