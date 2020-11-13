@@ -173,4 +173,10 @@
       <option name="DART_TOPLEVEL" value="false" />
     </context>
   </template>
+  <template name="view_model" value="extension $model$X on $model$ {&#10;&#10;} " description="生成view model" toReformat="false" toShortenFQNames="true">
+    <variable name="model" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART_TOPLEVEL" value="true" />
+    </context>
+  </template>
 </templateSet>
