@@ -197,4 +197,11 @@
       <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
+  <template name="getter" value="$type$ _$name$;&#10;$type$ get $name$ =&gt; _$name$;" description="生成getter" toReformat="false" toShortenFQNames="true">
+    <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
 </templateSet>
