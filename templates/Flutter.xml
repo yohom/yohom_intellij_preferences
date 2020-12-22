@@ -74,7 +74,6 @@
     <context>
       <option name="DART" value="true" />
       <option name="DART_STATEMENT" value="false" />
-      <option name="DART_TOPLEVEL" value="false" />
     </context>
   </template>
   <template name="path" value="static const String path = '/$path$';" description="生成Screen的path" toReformat="false" toShortenFQNames="true">
@@ -118,7 +117,6 @@
     <context>
       <option name="DART" value="true" />
       <option name="DART_STATEMENT" value="false" />
-      <option name="DART_TOPLEVEL" value="false" />
     </context>
   </template>
   <template name="param" value="final param = Param()..action = $action$..baseInfo()..putParamMap({$params$});" description="生成Param模板" toReformat="false" toShortenFQNames="true">
@@ -141,7 +139,6 @@
     <context>
       <option name="DART" value="true" />
       <option name="DART_STATEMENT" value="false" />
-      <option name="DART_TOPLEVEL" value="false" />
     </context>
   </template>
   <template name="catch" value="catchError(handle(context));" description="生成catchError(handle(context))" toReformat="false" toShortenFQNames="true">
@@ -153,7 +150,6 @@
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART" value="true" />
-      <option name="DART_TOPLEVEL" value="false" />
     </context>
   </template>
   <template name="launch" value="static void launch(BuildContext context) {&#10;  context.navigator.push(&#10;    DecoratedRoute&lt;$name$BLoC, void&gt;(&#10;      screen: $name$Screen._(),&#10;      bloc: $name$BLoC(),&#10;      init: (bloc) {&#10;      },&#10;    ),&#10;  );&#10;}&#10;&#10;// 禁止直接实例化&#10;$name$Screen._();" description="打开页面" toReformat="false" toShortenFQNames="true">
@@ -161,7 +157,6 @@
     <context>
       <option name="DART" value="true" />
       <option name="DART_STATEMENT" value="false" />
-      <option name="DART_TOPLEVEL" value="false" />
     </context>
   </template>
   <template name="launch_named" value="static void launch(BuildContext context$args$) {&#10;  context.navigator.pushNamed($route$);&#10;}" description="打开页面" toReformat="false" toShortenFQNames="true">
@@ -170,7 +165,6 @@
     <context>
       <option name="DART" value="true" />
       <option name="DART_STATEMENT" value="false" />
-      <option name="DART_TOPLEVEL" value="false" />
     </context>
   </template>
   <template name="view_model" value="extension $model$X on $model$ {&#10;&#10;} " description="生成view model" toReformat="false" toShortenFQNames="true">

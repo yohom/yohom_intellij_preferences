@@ -45,7 +45,6 @@
     <context>
       <option name="DART" value="true" />
       <option name="DART_STATEMENT" value="false" />
-      <option name="DART_TOPLEVEL" value="false" />
     </context>
   </template>
   <template name="reducerCreator" value="$State$ _$name$($State$ state, Action action) {&#10;  return state;&#10;}" description="生成fish redux的reducer静态方法模板" toReformat="false" toShortenFQNames="true" deactivated="true">
