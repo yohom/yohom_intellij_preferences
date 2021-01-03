@@ -183,7 +183,7 @@
       <option name="DART" value="true" />
     </context>
   </template>
-  <template name="newinstance" value="static Widget newInstance(BuildContext context) {&#10;  return DecoratedWidget&lt;$name$BLoC&gt;(&#10;    bloc: $name$BLoC(),&#10;    widget: $name$Screen(),&#10;  );&#10;}" description="生成newInstance方法" toReformat="false" toShortenFQNames="true">
+  <template name="newinstance" value="static Widget newInstance() {&#10;  return DecoratedWidget&lt;$name$BLoC&gt;(&#10;    bloc: $name$BLoC(),&#10;    widget: $name$Screen(),&#10;  );&#10;}" description="生成newInstance方法" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART" value="true" />
