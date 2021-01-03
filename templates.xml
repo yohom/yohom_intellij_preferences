@@ -3,6 +3,14 @@
     <option name="deletedKeys">
       <list>
         <TemplateKey>
+          <option name="groupName" value="Flutter" />
+          <option name="key" value="thof" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="Flutter" />
+          <option name="key" value="ihof" />
+        </TemplateKey>
+        <TemplateKey>
           <option name="groupName" value="Shell Script Hidden" />
           <option name="key" value="shell_if" />
         </TemplateKey>

@@ -76,13 +76,6 @@
       <option name="DART_STATEMENT" value="false" />
     </context>
   </template>
-  <template name="path" value="static const String path = '/$path$';" description="生成Screen的path" toReformat="false" toShortenFQNames="true">
-    <variable name="path" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="DART" value="true" />
-      <option name="DART_STATEMENT" value="false" />
-    </context>
-  </template>
   <template name="singleton" value="static $type$ instance = $type$._();&#10;&#10;$type$._();" description="生成单例模板" toReformat="false" toShortenFQNames="true">
     <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -131,14 +124,6 @@
     <variable name="argument" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART_STATEMENT" value="true" />
-    </context>
-  </template>
-  <template name="of" value="static $Type$ of(BuildContext context) {&#10;  return (context.ancestorWidgetOfExactType($Ancestor$) as $Ancestor$).data;&#10;}" description="生成of方法" toReformat="false" toShortenFQNames="true">
-    <variable name="Type" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="Ancestor" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="DART" value="true" />
-      <option name="DART_STATEMENT" value="false" />
     </context>
   </template>
   <template name="catch" value="catchError(handle(context));" description="生成catchError(handle(context))" toReformat="false" toShortenFQNames="true">
@@ -193,6 +178,12 @@
   </template>
   <template name="getter" value="$type$ _$name$;&#10;$type$ get $name$ =&gt; _$name$;" description="生成getter" toReformat="false" toShortenFQNames="true">
     <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="newinstance" value="static Widget newInstance(BuildContext context) {&#10;  return DecoratedWidget&lt;$name$BLoC&gt;(&#10;    bloc: $name$BLoC(),&#10;    widget: $name$Screen(),&#10;  );&#10;}" description="生成newInstance方法" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART" value="true" />
