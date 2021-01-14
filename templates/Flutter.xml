@@ -76,7 +76,7 @@
       <option name="DART_STATEMENT" value="false" />
     </context>
   </template>
-  <template name="singleton" value="static $type$ instance = $type$._();&#10;&#10;$type$._();" description="生成单例模板" toReformat="false" toShortenFQNames="true">
+  <template name="singleton" value="class $type$ {&#10;  static $type$ instance = $type$._();&#10;&#10;  $type$._();&#10;}" description="生成单例模板" toReformat="false" toShortenFQNames="true">
     <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART" value="true" />
