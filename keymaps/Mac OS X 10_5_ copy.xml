@@ -20,7 +20,7 @@
     <keyboard-shortcut first-keystroke="meta subtract" />
   </action>
   <action id="CollapseAllRegions">
-    <keyboard-shortcut first-keystroke="shift meta underscore" />
+    <keyboard-shortcut first-keystroke="shift meta minus" />
   </action>
   <action id="CollapseExpandableComponent">
     <keyboard-shortcut first-keystroke="shift enter" />
@@ -38,7 +38,7 @@
     <keyboard-shortcut first-keystroke="meta add" />
   </action>
   <action id="ExpandAllRegions">
-    <keyboard-shortcut first-keystroke="shift meta plus" />
+    <keyboard-shortcut first-keystroke="shift meta equals" />
   </action>
   <action id="ExpandExpandableComponent">
     <keyboard-shortcut first-keystroke="shift enter" />
