@@ -20,6 +20,7 @@
         <added pattern="kotlin.text.Regex(pattern)" />
         <added pattern="me.yohom.fluttify.extensions.joinToStringX(separator,prefix,suffix,transform)" />
         <added pattern="kotlin.text.split(delimiters,ignoreCase,limit)" />
+        <added pattern="java.util.Random.ints(streamSize,randomNumberOrigin,randomNumberBound)" />
       </blacklist>
     </blacklists>
     <option id="SHOW_PROPERTY_HINT" value="true" />
