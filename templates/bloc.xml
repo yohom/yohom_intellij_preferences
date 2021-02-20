@@ -28,16 +28,6 @@
       <option name="DART_STATEMENT" value="false" />
     </context>
   </template>
-  <template name="output" value="/// $desc$&#10;  final $name$ = Output&lt;Bean&gt;(&#10;    semantics: '$desc$',&#10;    trigger: () {&#10;      final param = Param()&#10;        ..action = ApiActions.$action$&#10;        ..baseInfo()&#10;        ..putParamMap({});&#10;      &#10;      return api.requestAs$response_type$(param.get());&#10;    },&#10;  );" description="生成BLoC中的Output模板" toReformat="false" toShortenFQNames="true">
-    <variable name="desc" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="action" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="response_type" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="DART" value="true" />
-      <option name="DART_STATEMENT" value="false" />
-    </context>
-  </template>
   <template name="subscriber" value="Subscriber&lt;$vm$&gt;(&#10;  stream: bloc.$io$.stream,&#10;  builder: (data) =&gt; $widget$(data),&#10;)," description="生成subscriber" toReformat="false" toShortenFQNames="true">
     <variable name="vm" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="io" expression="" defaultValue="" alwaysStopAt="true" />
