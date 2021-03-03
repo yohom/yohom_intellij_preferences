@@ -198,4 +198,11 @@
       <option name="DART_TOPLEVEL" value="false" />
     </context>
   </template>
+  <template name="listbuilder" value="Expanded(&#10;  child: ListView.separated(&#10;    padding: EdgeInsets.symmetric(horizontal: kSpace8),&#10;    itemCount: 10,&#10;    separatorBuilder: (_, __) =&gt; Divider(height: kSpace4),&#10;    itemBuilder: (_, index) =&gt; $item$(),&#10;  ),&#10;)" description="ListView.builder" toReformat="false" toShortenFQNames="true">
+    <variable name="item" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+      <option name="DART_TOPLEVEL" value="false" />
+    </context>
+  </template>
 </templateSet>
