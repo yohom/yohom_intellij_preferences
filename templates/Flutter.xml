@@ -205,4 +205,10 @@
       <option name="DART_TOPLEVEL" value="false" />
     </context>
   </template>
+  <template name="afterlayout" value="WidgetsBinding.instance.addPostFrameCallback((timeStamp) { &#10;  $do$      &#10;});" description="After layout" toReformat="false" toShortenFQNames="true">
+    <variable name="do" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
