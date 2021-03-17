@@ -13,7 +13,7 @@
     <mask>*.tmpl</mask>
     <mask>*.m.tmpl</mask>
     <mask>*.dart</mask>
-    <mask>*.java</mask>
     <mask>*.mm</mask>
+    <mask>*.java</mask>
   </component>
 </application>
