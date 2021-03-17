@@ -211,4 +211,11 @@
       <option name="DART_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="blocset" value="bloc.$name$.set(arguments['$name$'] as $type$);" description="bloc set" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
