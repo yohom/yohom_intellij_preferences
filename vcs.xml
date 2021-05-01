@@ -202,9 +202,13 @@
           <option name="url" value="http://git.1024web.cn:3000" />
           <option name="userName" value="yohom" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@gitee.com:a_bean/tesla.dart.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/Work/Ruikejia/moa" />
+    <option name="cloneParentDir" value="$USER_HOME$/Github/Me/All/tesla" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="LABELS_LEFT_ALIGNED" value="true" />
