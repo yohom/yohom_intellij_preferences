@@ -218,7 +218,7 @@
       <option name="DART_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="confirm" value="final confirm = await showConfirmDialog(context, content: '$title$');&#10;if (confirm == true) {&#10;  $request$&#10;}" description="确认对话框" toReformat="false" toShortenFQNames="true">
+  <template name="confirm" value="final confirm = await showConfirmDialog(context, content: '$title$');&#10;if (confirm != true) return;&#10;&#10;$request$&#10;" description="确认对话框" toReformat="false" toShortenFQNames="true">
     <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="request" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
