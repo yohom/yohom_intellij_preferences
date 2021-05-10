@@ -206,9 +206,13 @@
           <option name="url" value="git@gitee.com:a_bean/tesla.dart.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@gitee.com:a_bean/flutter_alibc.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/Github/Me/All/tesla" />
+    <option name="cloneParentDir" value="$USER_HOME$/Github/Me/All/utils" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="LABELS_LEFT_ALIGNED" value="true" />
