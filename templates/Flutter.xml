@@ -170,7 +170,7 @@
       <option name="DART" value="true" />
     </context>
   </template>
-  <template name="dialog" value="import 'package:decorated_flutter/decorated_flutter.dart';&#10;import 'package:flutter/material.dart';&#10;&#10;Future&lt;void&gt; show$name$(BuildContext context) {&#10;  return showModalBottomSheet(&#10;    context: context,&#10;    builder: (context) =&gt; _$name$(),&#10;  );&#10;}&#10;&#10;class _$name$ extends StatelessWidget {&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return DecoratedColumn(&#10;      children: [],&#10;    );&#10;  }&#10;}&#10;" description="show dialog" toReformat="false" toShortenFQNames="true">
+  <template name="dialog" value="import 'package:decorated_flutter/decorated_flutter.dart';&#10;import 'package:flutter/material.dart';&#10;&#10;Future&lt;void&gt; show$name$(BuildContext context) {&#10;  return showModalBottomSheet(&#10;    context: context,&#10;    builder: (context) =&gt; const _$name$(),&#10;  );&#10;}&#10;&#10;class _$name$ extends StatelessWidget {&#10;  const $name$({Key? key}) : super(key: key);&#10;&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return DecoratedColumn(&#10;      children: [],&#10;    );&#10;  }&#10;}&#10;" description="show dialog" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART_TOPLEVEL" value="true" />
