@@ -225,4 +225,10 @@
       <option name="DART_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="mock" value="// ignore: must_be_immutable&#10;class Mock$name$ extends Mock implements $name$ {}" description="生成mock类" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART_TOPLEVEL" value="true" />
+    </context>
+  </template>
 </templateSet>
