@@ -68,9 +68,8 @@
       <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
-  <template name="const" value="const $name$(): super(key: $key$);" description="生成const构造器" toReformat="false" toShortenFQNames="true">
+  <template name="const" value="const $name$({Key key}): super(key: key);" description="生成const构造器" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="key" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART" value="true" />
       <option name="DART_STATEMENT" value="false" />
