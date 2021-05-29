@@ -33,9 +33,6 @@
   <action id="ECTranslation">
     <keyboard-shortcut first-keystroke="ctrl i" />
   </action>
-  <action id="EditorLineEndWithSelection">
-    <keyboard-shortcut first-keystroke="shift end" />
-  </action>
   <action id="EditorToggleCase" />
   <action id="ExpandAll">
     <keyboard-shortcut first-keystroke="meta add" />
@@ -106,8 +103,9 @@
   <action id="Maven.ExpandAll">
     <keyboard-shortcut first-keystroke="meta add" />
   </action>
+  <action id="MaximizeToolWindow" />
   <action id="MoveEditorToOppositeTabGroup">
-    <keyboard-shortcut first-keystroke="shift meta right" />
+    <keyboard-shortcut first-keystroke="shift meta quote" />
   </action>
   <action id="OptimizeImports">
     <keyboard-shortcut first-keystroke="ctrl alt o" />
