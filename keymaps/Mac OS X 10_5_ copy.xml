@@ -33,6 +33,9 @@
   <action id="ECTranslation">
     <keyboard-shortcut first-keystroke="ctrl i" />
   </action>
+  <action id="EditorLineEndWithSelection">
+    <keyboard-shortcut first-keystroke="shift end" />
+  </action>
   <action id="EditorToggleCase" />
   <action id="ExpandAll">
     <keyboard-shortcut first-keystroke="meta add" />
@@ -103,6 +106,9 @@
   <action id="Maven.ExpandAll">
     <keyboard-shortcut first-keystroke="meta add" />
   </action>
+  <action id="MoveEditorToOppositeTabGroup">
+    <keyboard-shortcut first-keystroke="shift meta right" />
+  </action>
   <action id="OptimizeImports">
     <keyboard-shortcut first-keystroke="ctrl alt o" />
     <keyboard-shortcut first-keystroke="meta alt o" />
@@ -123,15 +129,13 @@
   <action id="ReplaceInPath">
     <keyboard-shortcut first-keystroke="shift ctrl r" />
   </action>
+  <action id="ResizeToolWindowRight" />
   <action id="Run">
     <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
   <action id="RunClass" />
   <action id="RunDashboard.Run" />
   <action id="ShelveChanges.UnshelveWithDialog" />
-  <action id="SplitVertically">
-    <keyboard-shortcut first-keystroke="ctrl alt v" />
-  </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
   </action>
