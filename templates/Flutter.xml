@@ -285,4 +285,11 @@
       <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
+  <template name="subtest" value="Future&lt;void&gt; _test$main$_$sub$(WidgetTester tester) async {&#10;&#10;}" description="子测试" toReformat="false" toShortenFQNames="true">
+    <variable name="main" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="sub" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART_TOPLEVEL" value="true" />
+    </context>
+  </template>
 </templateSet>
