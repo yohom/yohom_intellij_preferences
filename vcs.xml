@@ -222,9 +222,21 @@
           <option name="url" value="git@gitee.com:a_bean/monitor-server.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@gitee.com:a_bean/data-server.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@gitee.com:a_bean/common-parent.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@gitee.com:a_bean/sso-server.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/Github/Me/All/tesla" />
+    <option name="cloneParentDir" value="$USER_HOME$/Github/Me/All/tesla/modou_server" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="LABELS_LEFT_ALIGNED" value="true" />
