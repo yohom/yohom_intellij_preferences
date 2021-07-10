@@ -218,6 +218,10 @@
           <option name="url" value="git@gitee.com:a_bean/common-server.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@gitee.com:a_bean/monitor-server.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Github/Me/All/tesla" />
