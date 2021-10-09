@@ -15,6 +15,7 @@
       <mapping pattern="Podfile" type="PLAIN_TEXT" />
       <mapping ext="plist" type="PLAIN_TEXT" />
       <mapping ext="bundle" type="PLAIN_TEXT" />
+      <mapping ext="g4" type="PLAIN_TEXT" />
       <mapping ext="webarchive" type="PLAIN_TEXT" />
       <mapping ext="podspec" type="PLAIN_TEXT" />
       <mapping ext="pub" type="PLAIN_TEXT" />
