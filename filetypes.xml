@@ -14,6 +14,7 @@
       <mapping pattern="GMSMapViewFactory.m" type="PLAIN_TEXT" />
       <mapping pattern="Podfile" type="PLAIN_TEXT" />
       <mapping ext="plist" type="PLAIN_TEXT" />
+      <mapping ext="pro" type="PLAIN_TEXT" />
       <mapping ext="bundle" type="PLAIN_TEXT" />
       <mapping ext="g4" type="PLAIN_TEXT" />
       <mapping ext="webarchive" type="PLAIN_TEXT" />
