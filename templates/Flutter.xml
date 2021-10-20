@@ -300,7 +300,7 @@
       <option name="DART_TOPLEVEL" value="false" />
     </context>
   </template>
-  <template name="widgetimport" value="import 'package:flutter/material.dart';&#10;&#10;class $NAME$ extends StatelessWidget {&#10;  const $NAME$({Key? key}) : super(key: key);&#10;&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return Center(&#10;      child: Text('$NAME$'),&#10;    );&#10;  }&#10;}&#10;" description="生成widget模板代码" toReformat="false" toShortenFQNames="true">
+  <template name="widgetimport" value="import 'package:decorated_flutter/decorated_flutter.dart';&#10;import 'package:flutter/material.dart';&#10;&#10;class $NAME$ extends StatelessWidget {&#10;  const $NAME$({Key? key}) : super(key: key);&#10;&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return Center(&#10;      child: Text('$NAME$'),&#10;    );&#10;  }&#10;}&#10;" description="生成widget模板代码" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART_TOPLEVEL" value="true" />
