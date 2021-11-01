@@ -10,6 +10,7 @@
       <mapping pattern="README" type="Markdown" />
       <mapping pattern="id_rsa" type="PLAIN_TEXT" />
       <mapping pattern="rsa_private" type="PLAIN_TEXT" />
+      <mapping pattern=".pubignore" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
       <mapping pattern="GMSMapViewFactory.m" type="PLAIN_TEXT" />
       <mapping pattern="Podfile" type="PLAIN_TEXT" />
