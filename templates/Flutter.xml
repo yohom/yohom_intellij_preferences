@@ -1,20 +1,8 @@
 <templateSet group="Flutter">
-  <template name="txt" value="style: Theme.of(context).textTheme" description="获取text theme" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="DART_STATEMENT" value="true" />
-    </context>
-  </template>
   <template name="perform" value="Future&lt;void&gt; perform$biz$() async {&#10;  $arguments$&#10;  &#10;  Biz.check$biz$();&#10;    &#10;  return DataSource.remote.$request$();&#10;}" description="生成perform**模板" toReformat="false" toShortenFQNames="true">
     <variable name="biz" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="arguments" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="request" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="DART" value="true" />
-      <option name="DART_STATEMENT" value="false" />
-    </context>
-  </template>
-  <template name="uni" value="static UniqueKey uniqueKey = UniqueKey();&#10;&#10;$name$() : super(key: uniqueKey);&#10;&#10;" description="生成UniqueKey" toReformat="false" toShortenFQNames="true">
-    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART" value="true" />
       <option name="DART_STATEMENT" value="false" />
@@ -93,24 +81,6 @@
       <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
-  <template name="kiwi" value="import 'package:kiwi/kiwi.dart' as kiwi;&#10;" description="生成kiwi导入" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="DART_TOPLEVEL" value="true" />
-    </context>
-  </template>
-  <template name="decor" value="DecoratedRoute&lt;$bloc$&gt;(screen: $screen$Screen());" description="生成DecoratedScreen" toReformat="false" toShortenFQNames="true">
-    <variable name="bloc" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="screen" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="DART_STATEMENT" value="true" />
-    </context>
-  </template>
-  <template name="api" value="@visibleForTesting&#10;static final Api api = Injector.obtain();" description="生成api对象" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="DART" value="true" />
-      <option name="DART_STATEMENT" value="false" />
-    </context>
-  </template>
   <template name="param" value="final param = Param()..action = $action$..baseInfo()..putParamMap({$params$});" description="生成Param模板" toReformat="false" toShortenFQNames="true">
     <variable name="action" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="params" expression="" defaultValue="" alwaysStopAt="true" />
@@ -121,11 +91,6 @@
   <template name="biz" value="try {&#10;      Biz.$method$($argument$);&#10;    } catch (e) {&#10;      return Future.error(e);&#10;    }" description="生成Biz模板" toReformat="false" toShortenFQNames="true">
     <variable name="method" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="argument" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="DART_STATEMENT" value="true" />
-    </context>
-  </template>
-  <template name="catch" value="catchError(handle(context));" description="生成catchError(handle(context))" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="DART_STATEMENT" value="true" />
     </context>
@@ -204,13 +169,6 @@
   </template>
   <template name="afterlayout" value="WidgetsBinding.instance?.addPostFrameCallback((timeStamp) { &#10;  $do$      &#10;});" description="After layout" toReformat="false" toShortenFQNames="true">
     <variable name="do" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="DART_STATEMENT" value="true" />
-    </context>
-  </template>
-  <template name="blocset" value="bloc.$name$.set(arguments['$name$'] as $type$);" description="bloc set" toReformat="false" toShortenFQNames="true">
-    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART_STATEMENT" value="true" />
     </context>
@@ -309,6 +267,12 @@
   <template name="s" value="final s = R.string(context);" description="生成字符串引用" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="DART_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="item" value="class $name$ extends StatelessWidget {&#10;  const $name$({required Key key}): super(key: key);&#10;  &#10;  @override&#10;  Widget build(BuildContext context) {&#10;    &#10;  }&#10;}" description="List Item Widget" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
 </templateSet>
