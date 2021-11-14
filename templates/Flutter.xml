@@ -48,14 +48,6 @@
       <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
-  <template name="testWidget" value="import 'package:flutter_test/flutter_test.dart';&#10;&#10;import '../app_shell.dart';&#10;&#10;void main() {&#10;  testWidgets('$desc$', (tester) async {&#10;    await tester.pumpWidget(AppShell($target$()));&#10;    &#10;    $content$&#10;  });&#10;}&#10;" description="生成widget test模板" toReformat="false" toShortenFQNames="true">
-    <variable name="desc" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="target" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="DART_TOPLEVEL" value="true" />
-    </context>
-  </template>
   <template name="const" value="const $name$({Key key}): super(key: key);" description="生成const构造器" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -264,7 +256,7 @@
       <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
-  <template name="s" value="final s = R.string(context);" description="生成字符串引用" toReformat="false" toShortenFQNames="true">
+  <template name="string" value="final s = R.string(context);" description="生成字符串引用" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="DART_STATEMENT" value="true" />
     </context>
@@ -273,6 +265,13 @@
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="requestasbean" value="final result = await DataSource.remote.$name$($args$);&#10;if (result.success) {&#10;  toast(result.message);&#10;} else {&#10;  throw result.message ?? '操作失败';&#10;}" description="请求返回bean" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="args" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART_STATEMENT" value="true" />
     </context>
   </template>
 </templateSet>
