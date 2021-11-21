@@ -16,14 +16,6 @@
       <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
-  <template name="test" value="import 'package:flutter_test/flutter_test.dart';&#10;import 'package:$package$main.dart';&#10;&#10;void main() {&#10;  test('$test_desc$', () {&#10;    $content$&#10;  });&#10;}&#10;" description="生成unit test模板" toReformat="false" toShortenFQNames="true">
-    <variable name="package" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="test_desc" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="DART_TOPLEVEL" value="true" />
-    </context>
-  </template>
   <template name="stless" value="import 'package:flutter/material.dart';&#10;&#10;class $NAME$ extends StatelessWidget {&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return Scaffold(&#10;      appBar: $APP_BAR$,&#10;      body: $BODY$,&#10;    );&#10;  }&#10;}&#10;" description="New Stateless widget" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="APP_BAR" expression="" defaultValue="" alwaysStopAt="true" />
@@ -137,20 +129,6 @@
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART" value="true" />
-    </context>
-  </template>
-  <template name="newinstance" value="static Widget newInstance() {&#10;  return DecoratedWidget&lt;$name$BLoC&gt;(&#10;    bloc: $name$BLoC(),&#10;    widget: $name$Screen._(),&#10;  );&#10;}&#10;&#10;$name$Screen._();" description="生成newInstance方法" toReformat="false" toShortenFQNames="true">
-    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="DART" value="true" />
-    </context>
-  </template>
-  <template name="testconst" value="@visibleForTesting&#10;static $type$ test({$var$}) {&#10;  return $type$();&#10;}" description="生成测试构造器" toReformat="false" toShortenFQNames="true">
-    <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="DART" value="true" />
-      <option name="DART_STATEMENT" value="false" />
     </context>
   </template>
   <template name="listbuilder" value="Expanded(&#10;  child: ListView.separated(&#10;    padding: const EdgeInsets.all(kSpace16),&#10;    itemCount: 10,&#10;    separatorBuilder: (_, __) =&gt; SPACE_12_VERTICAL,&#10;    itemBuilder: (_, index) =&gt; $item$(),&#10;  ),&#10;)" description="ListView.builder" toReformat="false" toShortenFQNames="true">

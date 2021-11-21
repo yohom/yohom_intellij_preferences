@@ -44,18 +44,20 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="anko" value="class $view_name$ : AnkoComponent&lt;$activity$&gt; {&#10;    override fun createView(ui: AnkoContext&lt;$activity$&gt;) = ui.apply {&#10;        $content$&#10;    }.view&#10;}" description="生成anko layout" toReformat="false" toShortenFQNames="true">
-    <variable name="view_name" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="activity" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="KOTLIN_TOPLEVEL" value="true" />
-    </context>
-  </template>
   <template name="syn" value="import kotlinx.android.synthetic.main.$layout_id$.*" description="生成kotlinx控件引用" toReformat="false" toShortenFQNames="true">
     <variable name="layout_id" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="subscriber" value="Subscriber&lt;$type$?&gt;(&#10;  stream: bloc.$io$.stream,&#10;  builder: ($data$) =&gt; $item$($data$!),&#10;)," description="生成subscriber" toReformat="false" toShortenFQNames="true">
+    <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="io" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="data" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="item" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+      <option name="DART_TOPLEVEL" value="false" />
     </context>
   </template>
 </templateSet>
