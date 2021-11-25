@@ -7,13 +7,13 @@
     <mask>*.m.tmpl</mask>
     <mask>*.mm</mask>
     <mask>*.tmpl</mask>
+    <mask>*.arb</mask>
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
     <mask>*.jsp</mask>
     <mask>*.properties</mask>
     <mask>*.java</mask>
-    <mask>*.arb</mask>
     <mask>*.dart</mask>
   </component>
 </application>
