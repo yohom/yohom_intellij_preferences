@@ -8,12 +8,12 @@
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="README" type="Markdown" />
+      <mapping pattern="GMSMapViewFactory.m" type="PLAIN_TEXT" />
       <mapping pattern="id_rsa" type="PLAIN_TEXT" />
+      <mapping pattern="Podfile" type="PLAIN_TEXT" />
       <mapping pattern="rsa_private" type="PLAIN_TEXT" />
       <mapping pattern=".pubignore" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
-      <mapping pattern="GMSMapViewFactory.m" type="PLAIN_TEXT" />
-      <mapping pattern="Podfile" type="PLAIN_TEXT" />
       <mapping ext="plist" type="PLAIN_TEXT" />
       <mapping ext="pro" type="PLAIN_TEXT" />
       <mapping ext="bundle" type="PLAIN_TEXT" />
