@@ -4,9 +4,6 @@
       <mapping pattern="template" type="AUTO_DETECTED" />
       <mapping pattern="getFavoriteListJson" type="JSON" />
       <mapping ext="graphqlconfig" type="JSON" />
-      <mapping ext="space.kts" type="Kotlin" />
-      <mapping ext="gradle.kts" type="Kotlin" />
-      <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="README" type="Markdown" />
       <mapping pattern="GMSMapViewFactory.m" type="PLAIN_TEXT" />
       <mapping pattern="id_rsa" type="PLAIN_TEXT" />
@@ -42,10 +39,13 @@
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="snakefile" approved="true" type="textmate" />
       <mapping ext="fnc" type="DBN-PSQL" />
+      <mapping ext="gradle.kts" type="Kotlin" />
+      <mapping ext="main.kts" type="Kotlin" />
       <mapping ext="pkb" type="DBN-PSQL" />
       <mapping ext="pkg" type="DBN-PSQL" />
       <mapping ext="pks" type="DBN-PSQL" />
       <mapping ext="prc" type="DBN-PSQL" />
+      <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="tpb" type="DBN-PSQL" />
       <mapping ext="tpe" type="DBN-PSQL" />
       <mapping ext="tps" type="DBN-PSQL" />
