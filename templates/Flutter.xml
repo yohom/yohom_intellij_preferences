@@ -252,4 +252,10 @@
       <option name="DART_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="richtext" value="Text.rich(&#10;  TextSpan(children: [&#10;    TextSpan(text: '$content$'),&#10;  ]),&#10;)," description="生成富文本" toReformat="false" toShortenFQNames="true">
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
