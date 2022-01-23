@@ -21,6 +21,10 @@
         <added pattern="me.yohom.fluttify.extensions.joinToStringX(separator,prefix,suffix,transform)" />
         <added pattern="kotlin.text.split(delimiters,ignoreCase,limit)" />
         <added pattern="java.util.Random.ints(streamSize,randomNumberOrigin,randomNumberBound)" />
+        <added pattern="org.gradle.kotlin.dsl.implementation(dependencyNotation)" />
+        <added pattern="org.gradle.kotlin.dsl.developmentOnly(dependencyNotation)" />
+        <added pattern="org.gradle.kotlin.dsl.annotationProcessor(dependencyNotation)" />
+        <added pattern="org.gradle.kotlin.dsl.testImplementation(dependencyNotation)" />
       </blacklist>
     </blacklists>
     <option id="SHOW_PROPERTY_HINT" value="true" />
