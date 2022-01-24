@@ -94,6 +94,11 @@
   </XML>
   <codeStyleSettings language="JAVA">
     <option name="SPACE_WITHIN_METHOD_CALL_PARENTHESES" value="true" />
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2" />
+      <option name="CONTINUATION_INDENT_SIZE" value="3" />
+      <option name="TAB_SIZE" value="2" />
+    </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="JavaScript">
     <indentOptions>
