@@ -25,6 +25,8 @@
         <added pattern="org.gradle.kotlin.dsl.developmentOnly(dependencyNotation)" />
         <added pattern="org.gradle.kotlin.dsl.annotationProcessor(dependencyNotation)" />
         <added pattern="org.gradle.kotlin.dsl.testImplementation(dependencyNotation)" />
+        <added pattern="java.time.Instant.minusSeconds(secondsToSubtract)" />
+        <added pattern="java.time.Instant.plusSeconds(secondsToAdd)" />
       </blacklist>
     </blacklists>
     <option id="SHOW_PROPERTY_HINT" value="true" />
