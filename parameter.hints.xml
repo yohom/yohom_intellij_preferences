@@ -27,6 +27,7 @@
         <added pattern="org.gradle.kotlin.dsl.testImplementation(dependencyNotation)" />
         <added pattern="java.time.Instant.minusSeconds(secondsToSubtract)" />
         <added pattern="java.time.Instant.plusSeconds(secondsToAdd)" />
+        <added pattern="org.springframework.data.domain.PageRequest.of(page,size,direction,properties)" />
       </blacklist>
     </blacklists>
     <option id="SHOW_PROPERTY_HINT" value="true" />
