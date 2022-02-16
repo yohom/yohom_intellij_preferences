@@ -28,6 +28,9 @@
         <added pattern="java.time.Instant.minusSeconds(secondsToSubtract)" />
         <added pattern="java.time.Instant.plusSeconds(secondsToAdd)" />
         <added pattern="org.springframework.data.domain.PageRequest.of(page,size,direction,properties)" />
+        <added pattern="kotlin.math.pow(x)" />
+        <added pattern="kotlin.math.sqrt(x)" />
+        <added pattern="kotlin.math.sin(x)" />
       </blacklist>
     </blacklists>
     <option id="SHOW_PROPERTY_HINT" value="true" />
