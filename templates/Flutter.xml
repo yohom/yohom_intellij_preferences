@@ -245,7 +245,7 @@
       <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
-  <template name="requestasbean" value="final result = await DataSource.remote.$name$($args$);&#10;if (result.success) {&#10;  toast(result.message);&#10;} else {&#10;  throw result.message ?? '操作失败';&#10;}" description="请求返回bean" toReformat="false" toShortenFQNames="true">
+  <template name="requestasbean" value="final result = await DataSource.remote.$name$($args$);&#10;if (result.isSuccess) {&#10;  toast(result.message);&#10;} else {&#10;  throw result.message ?? '操作失败';&#10;}" description="请求返回bean" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="args" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
