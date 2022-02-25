@@ -131,7 +131,7 @@
       <option name="DART" value="true" />
     </context>
   </template>
-  <template name="listbuilder" value="Expanded(&#10;  child: ListView.separated(&#10;    padding: const EdgeInsets.all(kSpace16),&#10;    itemCount: 10,&#10;    separatorBuilder: (_, __) =&gt; SPACE_12_VERTICAL,&#10;    itemBuilder: (_, index) =&gt; $item$(),&#10;  ),&#10;)" description="ListView.builder" toReformat="false" toShortenFQNames="true">
+  <template name="listbuilder" value="Expanded(&#10;  child: ListView.separated(&#10;    padding: const EdgeInsets.all(16),&#10;    itemCount: 10,&#10;    separatorBuilder: (_, __) =&gt; SPACE_12_VERTICAL,&#10;    itemBuilder: (_, index) =&gt; $item$(),&#10;  ),&#10;)" description="ListView.builder" toReformat="false" toShortenFQNames="true">
     <variable name="item" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART" value="true" />
