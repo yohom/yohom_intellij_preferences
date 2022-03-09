@@ -55,6 +55,8 @@
       <NestingRule child-file-suffix=".js.map" parent-file-suffix=".tsx" />
       <NestingRule child-file-suffix=".jsx" parent-file-suffix=".tsx" />
       <NestingRule child-file-suffix=".jsx.map" parent-file-suffix=".tsx" />
+      <NestingRule child-file-suffix="CHANGELOG.md" parent-file-suffix="README.md" />
+      <NestingRule child-file-suffix="LICENSE" parent-file-suffix="README.md" />
       <NestingRule child-file-suffix=".flutter-plugins" parent-file-suffix="pubspec.yaml" />
       <NestingRule child-file-suffix=".flutter-plugins-dependencies" parent-file-suffix="pubspec.yaml" />
       <NestingRule child-file-suffix=".metadata" parent-file-suffix="pubspec.yaml" />
