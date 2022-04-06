@@ -257,4 +257,13 @@
       <option name="DART_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="valuelisten" value="ValueListenableBuilder&lt;$type$&gt;(&#10;  valueListenable: $state$,&#10;  builder: (_, value, child) {&#10;    return $builder$;&#10;  },&#10;  child: $child$,&#10;)" description="生成ValueListenableBuilder" toReformat="false" toShortenFQNames="true">
+    <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="state" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="builder" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="child" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
