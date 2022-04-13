@@ -1,0 +1,5 @@
+<application>
+  <component name="IntentionManagerSettings">
+    <ignoreAction name="GitHub Copilot/Open GitHub Copilot" />
+  </component>
+</application>
