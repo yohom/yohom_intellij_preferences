@@ -8,6 +8,16 @@
     <option name="OPTIMIZE_IMPORTS_ON_THE_FLY" value="true" />
     <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
   </component>
+  <component name="CodeVisionSettings">
+    <option name="codeVisionGroupToPosition">
+      <map>
+        <entry key="inheritors" value="Default" />
+        <entry key="problems" value="Default" />
+        <entry key="references" value="Default" />
+        <entry key="vcs.code.vision" value="Default" />
+      </map>
+    </option>
+  </component>
   <component name="DaemonCodeAnalyzerSettings">
     <option name="SHOW_METHOD_SEPARATORS" value="true" />
   </component>
@@ -27,6 +37,9 @@
     <option name="USE_SOFT_WRAPS" value="CONSOLE" />
     <option name="ARE_LINE_NUMBERS_SHOWN" value="false" />
     <option name="SHOW_BREADCRUMBS" value="false" />
+  </component>
+  <component name="InlayHintsSettings">
+    <option name="lastViewedProviderKeyId" value=".vcs.code.vision" />
   </component>
   <component name="JetEditorOptions">
     <option name="donTShowConversionDialog" value="true" />
