@@ -200,7 +200,8 @@
     <variable name="arg" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="api" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="DART_TOPLEVEL" value="true" />
+      <option name="DART" value="true" />
+      <option name="DART_STATEMENT" value="false" />
     </context>
   </template>
   <template name="fetchaslist" value="/// $comment$&#10;Future&lt;List&lt;$type$&gt;&gt; $name$($arg$) {&#10;  return _requester.fetchAsList(&#10;    Apis.$api$,&#10;    $type$.fromJson,&#10;    param: {&#10;      &#10;    },&#10;  );&#10;}" description="list" toReformat="false" toShortenFQNames="true">
