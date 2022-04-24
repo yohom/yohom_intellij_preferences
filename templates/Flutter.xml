@@ -271,4 +271,12 @@
       <option name="DART_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="route" value="static Route route(Map&lt;String, dynamic&gt; arguments) {&#10;  return $route$&#10;}" description="生成route模板" toReformat="false" toShortenFQNames="true">
+    <variable name="route" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+      <option name="DART_STATEMENT" value="false" />
+      <option name="DART_TOPLEVEL" value="false" />
+    </context>
+  </template>
 </templateSet>
