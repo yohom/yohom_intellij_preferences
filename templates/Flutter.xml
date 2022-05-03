@@ -170,7 +170,8 @@
     <variable name="arg" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="api" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="DART_STATEMENT" value="true" />
+      <option name="DART" value="true" />
+      <option name="DART_STATEMENT" value="false" />
     </context>
   </template>
   <template name="postaslist" value="/// $comment$&#10;Future&lt;List&lt;$type$&gt;&gt; $name$($arg$) {&#10;  return _requester.postAsList(&#10;    Apis.$api$,&#10;    $type$.fromJson,&#10;    data: {&#10;      &#10;    },&#10;  );&#10;}" description="list" toReformat="false" toShortenFQNames="true">
@@ -180,7 +181,8 @@
     <variable name="arg" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="api" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="DART_TOPLEVEL" value="true" />
+      <option name="DART" value="true" />
+      <option name="DART_STATEMENT" value="false" />
     </context>
   </template>
   <template name="postassingle" value="/// $comment$&#10;Future&lt;$type$&gt; $name$($arg$) {&#10;  return _requester.postAsSingle(&#10;    Apis.$api$,&#10;    $type$.fromJson,&#10;    data: {&#10;      &#10;    },&#10;  );&#10;}" description="single" toReformat="false" toShortenFQNames="true">
@@ -190,7 +192,8 @@
     <variable name="arg" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="api" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="DART_TOPLEVEL" value="true" />
+      <option name="DART" value="true" />
+      <option name="DART_STATEMENT" value="false" />
     </context>
   </template>
   <template name="fetchassingle" value="/// $comment$&#10;Future&lt;$type$&gt; $name$($arg$) {&#10;  return _requester.fetchAsSingle(&#10;    Apis.$api$,&#10;    $type$.fromJson,&#10;    param: {&#10;      &#10;    },&#10;  );&#10;}" description="single" toReformat="false" toShortenFQNames="true">
@@ -200,7 +203,8 @@
     <variable name="arg" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="api" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="DART_TOPLEVEL" value="true" />
+      <option name="DART" value="true" />
+      <option name="DART_STATEMENT" value="false" />
     </context>
   </template>
   <template name="fetchaslist" value="/// $comment$&#10;Future&lt;List&lt;$type$&gt;&gt; $name$($arg$) {&#10;  return _requester.fetchAsList(&#10;    Apis.$api$,&#10;    $type$.fromJson,&#10;    param: {&#10;      &#10;    },&#10;  );&#10;}" description="list" toReformat="false" toShortenFQNames="true">
@@ -265,6 +269,21 @@
     <variable name="child" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="route" value="static Route route(Map&lt;String, dynamic&gt; arguments) {&#10;  return $route$&#10;}" description="生成route模板" toReformat="false" toShortenFQNames="true">
+    <variable name="route" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+      <option name="DART_STATEMENT" value="false" />
+      <option name="DART_TOPLEVEL" value="false" />
+    </context>
+  </template>
+  <template name="yamlgroup" value="################## $name$ ##################&#10;$content$&#10;################## $name$ ##################" description="yaml依赖组" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GENERAL_YAML_FILE" value="true" />
     </context>
   </template>
 </templateSet>
