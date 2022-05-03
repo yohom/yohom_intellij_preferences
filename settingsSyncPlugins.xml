@@ -373,6 +373,18 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="com.rhyme.flutter.plugin.jumptoassets">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.lang" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
         <entry key="com.zxy.ijplugin.wechat-miniprogram">
           <value>
             <PluginData>
