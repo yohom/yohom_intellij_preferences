@@ -33,6 +33,8 @@
         <added pattern="kotlin.math.sin(x)" />
         <added pattern="com.mapbox.geojson.Point.fromLngLat(longitude,latitude)" />
         <added pattern="me.yohom.fluttify.extensions.isOneOf(candidates)" />
+        <added pattern="me.yohom.fluttify.extensions.contentOf(name)" />
+        <added pattern="me.yohom.fluttify.extensions.invoke(name)" />
       </blacklist>
     </blacklists>
     <option id="SHOW_PROPERTY_HINT" value="true" />
