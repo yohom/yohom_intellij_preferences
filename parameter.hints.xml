@@ -36,6 +36,7 @@
         <added pattern="me.yohom.fluttify.extensions.contentOf(name)" />
         <added pattern="me.yohom.fluttify.extensions.invoke(name)" />
         <added pattern="me.yohom.fluttify.extensions.contentOf(node,name)" />
+        <added pattern="me.yohom.fluttify.extensions.listBy(name)" />
       </blacklist>
     </blacklists>
     <option id="SHOW_PROPERTY_HINT" value="true" />
