@@ -38,6 +38,7 @@
         <added pattern="me.yohom.fluttify.extensions.contentOf(node,name)" />
         <added pattern="me.yohom.fluttify.extensions.listBy(name)" />
         <added pattern="kotlin.text.indexOf(string,startIndex,ignoreCase)" />
+        <added pattern="kotlin.text.removePrefix(prefix)" />
       </blacklist>
     </blacklists>
     <option id="SHOW_PROPERTY_HINT" value="true" />
