@@ -3,7 +3,6 @@
     <option name="signinNotificationShown" value="true" />
     <disabledLanguages>
       <option value="Dart in Html" />
-      <option value="Groovy" />
       <option value="HTML" />
       <option value="JAVA" />
       <option value="yaml" />
