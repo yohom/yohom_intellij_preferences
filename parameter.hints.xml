@@ -32,6 +32,13 @@
         <added pattern="kotlin.math.sqrt(x)" />
         <added pattern="kotlin.math.sin(x)" />
         <added pattern="com.mapbox.geojson.Point.fromLngLat(longitude,latitude)" />
+        <added pattern="me.yohom.fluttify.extensions.isOneOf(candidates)" />
+        <added pattern="me.yohom.fluttify.extensions.contentOf(name)" />
+        <added pattern="me.yohom.fluttify.extensions.invoke(name)" />
+        <added pattern="me.yohom.fluttify.extensions.contentOf(node,name)" />
+        <added pattern="me.yohom.fluttify.extensions.listBy(name)" />
+        <added pattern="kotlin.text.indexOf(string,startIndex,ignoreCase)" />
+        <added pattern="kotlin.text.removePrefix(prefix)" />
       </blacklist>
     </blacklists>
     <option id="SHOW_PROPERTY_HINT" value="true" />
