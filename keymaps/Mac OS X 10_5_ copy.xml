@@ -156,9 +156,6 @@
   <action id="flutter.androidstudio.open">
     <keyboard-shortcut first-keystroke="shift meta a" />
   </action>
-  <action id="flutter.appcode.open">
-    <keyboard-shortcut first-keystroke="shift meta i" />
-  </action>
   <action id="flutter.packages.upgrade">
     <keyboard-shortcut first-keystroke="shift meta u" />
   </action>
@@ -167,6 +164,9 @@
   </action>
   <action id="flutter.pub.upgrade">
     <keyboard-shortcut first-keystroke="shift meta u" />
+  </action>
+  <action id="flutter.xcode.open">
+    <keyboard-shortcut first-keystroke="shift meta i" />
   </action>
   <action id="sorter">
     <keyboard-shortcut first-keystroke="shift meta l" />
