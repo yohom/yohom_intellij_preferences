@@ -106,7 +106,7 @@
       <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
-  <template name="output" value="final $name$ = $list$Output&lt;$type$, $arg_type$&gt;(&#10;  semantics: '$sematic$',&#10;  fetch: ($arg$) async {&#10;    $fetch$;&#10;  },&#10;);" description="生成Output" toReformat="false" toShortenFQNames="true">
+  <template name="output" value="final $name$ = $list$Output.optional&lt;$type$, $arg_type$&gt;(&#10;  semantics: '$sematic$',&#10;  fetch: ($arg$) async {&#10;    $fetch$;&#10;  },&#10;);" description="生成Output" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="list" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
