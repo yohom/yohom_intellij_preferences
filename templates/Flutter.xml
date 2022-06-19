@@ -286,4 +286,10 @@
       <option name="GENERAL_YAML_FILE" value="true" />
     </context>
   </template>
+  <template name="vo" value="class $model$VO {&#10;  $model$VO.data($model$DO data) {&#10;  &#10;  }&#10;} " description="生成viewobject" toReformat="false" toShortenFQNames="true">
+    <variable name="model" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART_TOPLEVEL" value="true" />
+    </context>
+  </template>
 </templateSet>
