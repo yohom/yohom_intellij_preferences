@@ -292,4 +292,11 @@
       <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
+  <template name="performloadcatch" value="context&#10;    .find&lt;$bloc$&gt;()&#10;    .perform$action$()&#10;    .loading()&#10;    .catchError(handleError);" description="生成功能执行代码" toReformat="false" toShortenFQNames="true">
+    <variable name="bloc" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="action" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
