@@ -2,6 +2,7 @@
   <component name="github-copilot">
     <option name="signinNotificationShown" value="true" />
     <disabledLanguages>
+      <option value="Dart" />
       <option value="Dart in Html" />
       <option value="HTML" />
       <option value="JAVA" />
