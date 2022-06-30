@@ -15,6 +15,7 @@
       <NestingRule child-file-suffix=".dart.js.deps" parent-file-suffix=".dart" />
       <NestingRule child-file-suffix=".dart.js.map" parent-file-suffix=".dart" />
       <NestingRule child-file-suffix=".dart.js.tar.gz" parent-file-suffix=".dart" />
+      <NestingRule child-file-suffix=".deprecated.dart" parent-file-suffix=".dart" />
       <NestingRule child-file-suffix=".g.dart" parent-file-suffix=".dart" />
       <NestingRule child-file-suffix=".module" parent-file-suffix=".dart" />
       <NestingRule child-file-suffix=".js" parent-file-suffix=".es6" />
