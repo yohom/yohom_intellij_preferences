@@ -9,8 +9,5 @@
       <option value="kotlin" />
       <option value="yaml" />
     </disabledLanguages>
-    <option name="showIdeCompletions" value="true" />
-    <option name="enableProxySupport" value="true" />
-    <option name="telemetryTermsAcceptedDate" value="2022-05-26T09:00:52.117705+08:00[Asia/Shanghai]" />
   </component>
 </application>
