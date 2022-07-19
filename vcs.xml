@@ -282,6 +282,10 @@
           <option name="url" value="https://codeup.aliyun.com/625bbd3bc2b7347ce520bfcd/a_bean/common-parent.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://192.168.1.253:12080" />
+          <option name="userName" value="baoyuehong" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Github/Me/All/tesla/modou_server" />
