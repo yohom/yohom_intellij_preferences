@@ -9,5 +9,6 @@
       <option value="kotlin" />
       <option value="yaml" />
     </disabledLanguages>
+    <option name="showIdeCompletions" value="true" />
   </component>
 </application>
