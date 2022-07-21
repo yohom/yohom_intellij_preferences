@@ -10,12 +10,12 @@
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="README" type="Markdown" />
-      <mapping pattern="id_rsa" type="PLAIN_TEXT" />
       <mapping pattern="rsa_private" type="PLAIN_TEXT" />
       <mapping pattern=".pubignore" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
-      <mapping pattern="GMSMapViewFactory.m" type="PLAIN_TEXT" />
       <mapping pattern="Podfile" type="PLAIN_TEXT" />
+      <mapping pattern="id_rsa" type="PLAIN_TEXT" />
+      <mapping pattern="GMSMapViewFactory.m" type="PLAIN_TEXT" />
       <mapping ext="plist" type="PLAIN_TEXT" />
       <mapping ext="pro" type="PLAIN_TEXT" />
       <mapping ext="bundle" type="PLAIN_TEXT" />
@@ -33,6 +33,8 @@
       <mapping ext="face-android" type="PLAIN_TEXT" />
       <mapping ext="info" type="PLAIN_TEXT" />
       <mapping ext="face-ios" type="PLAIN_TEXT" />
+      <mapping pattern="pubspec.lock" type="YAML" />
+      <mapping pattern=".analysis_options" type="YAML" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
