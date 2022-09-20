@@ -19,6 +19,7 @@
       <mapping ext="plist" type="PLAIN_TEXT" />
       <mapping ext="pro" type="PLAIN_TEXT" />
       <mapping ext="bundle" type="PLAIN_TEXT" />
+      <mapping ext="mobileconfig" type="PLAIN_TEXT" />
       <mapping ext="m3u8" type="PLAIN_TEXT" />
       <mapping ext="g4" type="PLAIN_TEXT" />
       <mapping ext="webarchive" type="PLAIN_TEXT" />
