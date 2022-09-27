@@ -290,9 +290,13 @@
           <option name="url" value="git@gitee.com:pslxx/xs-flutter.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://192.168.1.253:12080//fuchenming/lotteryback.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/Github/Me/All/im" />
+    <option name="cloneParentDir" value="$USER_HOME$/Github/Me/All" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="LABELS_LEFT_ALIGNED" value="true" />
