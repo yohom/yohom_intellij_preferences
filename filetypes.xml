@@ -10,12 +10,11 @@
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="README" type="Markdown" />
-      <mapping pattern="id_rsa" type="PLAIN_TEXT" />
       <mapping pattern="rsa_private" type="PLAIN_TEXT" />
       <mapping pattern=".pubignore" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
+      <mapping pattern="id_rsa" type="PLAIN_TEXT" />
       <mapping pattern="GMSMapViewFactory.m" type="PLAIN_TEXT" />
-      <mapping pattern="Podfile" type="PLAIN_TEXT" />
       <mapping ext="plist" type="PLAIN_TEXT" />
       <mapping ext="pro" type="PLAIN_TEXT" />
       <mapping ext="bundle" type="PLAIN_TEXT" />
@@ -23,7 +22,6 @@
       <mapping ext="m3u8" type="PLAIN_TEXT" />
       <mapping ext="g4" type="PLAIN_TEXT" />
       <mapping ext="webarchive" type="PLAIN_TEXT" />
-      <mapping ext="podspec" type="PLAIN_TEXT" />
       <mapping ext="pub" type="PLAIN_TEXT" />
       <mapping ext="isar" type="PLAIN_TEXT" />
       <mapping ext="wav" type="PLAIN_TEXT" />
@@ -35,6 +33,8 @@
       <mapping ext="face-android" type="PLAIN_TEXT" />
       <mapping ext="info" type="PLAIN_TEXT" />
       <mapping ext="face-ios" type="PLAIN_TEXT" />
+      <mapping pattern="Podfile" type="Ruby" />
+      <mapping ext="podspec" type="Ruby" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
@@ -43,10 +43,12 @@
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping ext="makefile" approved="true" type="textmate" />
       <removed_mapping ext="mk" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="podspec" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="pro" approved="true" type="Shrinker Config File" />
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="snakefile" approved="true" type="textmate" />
       <removed_mapping pattern=".analysis_options" approved="true" type="YAML" />
+      <removed_mapping pattern="Podfile" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern="pubspec.lock" approved="true" type="YAML" />
       <mapping ext="fnc" type="DBN-PSQL" />
       <mapping ext="pkb" type="DBN-PSQL" />

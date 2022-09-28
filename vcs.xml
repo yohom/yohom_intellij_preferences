@@ -294,9 +294,13 @@
           <option name="url" value="http://192.168.1.253:12080//fuchenming/lotteryback.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:yohom/isar.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/Github/Me/All" />
+    <option name="cloneParentDir" value="$USER_HOME$/Github/Me/All/memoir/client/support" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="LABELS_LEFT_ALIGNED" value="true" />
