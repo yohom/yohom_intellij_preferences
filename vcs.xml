@@ -298,6 +298,10 @@
           <option name="url" value="git@github.com:yohom/isar.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://192.168.110.252" />
+          <option name="userName" value="baoyuehong" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Github/Me/All/memoir/client/support" />
