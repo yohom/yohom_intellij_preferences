@@ -41,12 +41,14 @@
       <removed_mapping ext="dockerfile" approved="true" type="textmate" />
       <removed_mapping ext="g4" approved="true" type="ANTLR v4 grammar file" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
+      <removed_mapping ext="json" approved="true" type="JSON" />
       <removed_mapping ext="makefile" approved="true" type="textmate" />
       <removed_mapping ext="mk" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="podspec" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="pro" approved="true" type="Shrinker Config File" />
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="snakefile" approved="true" type="textmate" />
+      <removed_mapping ext="yaml" approved="true" type="YAML" />
       <removed_mapping pattern=".analysis_options" approved="true" type="YAML" />
       <removed_mapping pattern="Podfile" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern="pubspec.lock" approved="true" type="YAML" />
