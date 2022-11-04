@@ -306,6 +306,10 @@
           <option name="url" value="http://192.168.110.252/baoyuehong/lottery.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://192.168.110.252/ZhouShaoting/fruit.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Github/Me/All/chudi" />
