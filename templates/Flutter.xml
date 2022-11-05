@@ -54,22 +54,10 @@
       <option name="DART_STATEMENT" value="false" />
     </context>
   </template>
-  <template name="part" value="part of 'bean.export.dart';" description="生成part of 'bean.export.dart'" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="DART_TOPLEVEL" value="true" />
-    </context>
-  </template>
   <template name="screenstl" value="import 'package:flutter/material.dart';&#10;import 'package:decorated_flutter/decorated_flutter.dart';&#10;&#10;class $name$Screen extends StatelessWidget {&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return Scaffold(&#10;      appBar: AppBar(title: Text('$name$')),&#10;      body: Center(child: Text('$name$')),&#10;    );&#10;  }&#10;}&#10;&#10;" description="生成screen简版模板代码" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART_TOPLEVEL" value="true" />
-    </context>
-  </template>
-  <template name="param" value="final param = Param()..action = $action$..baseInfo()..putParamMap({$params$});" description="生成Param模板" toReformat="false" toShortenFQNames="true">
-    <variable name="action" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="params" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="DART_STATEMENT" value="true" />
     </context>
   </template>
   <template name="biz" value="try {&#10;      Biz.$method$($argument$);&#10;    } catch (e) {&#10;      return Future.error(e);&#10;    }" description="生成Biz模板" toReformat="false" toShortenFQNames="true">
@@ -269,13 +257,6 @@
     <variable name="child" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART_STATEMENT" value="true" />
-    </context>
-  </template>
-  <template name="route" value="static Route route(Map&lt;String, dynamic&gt; arguments) {&#10;  return $route$&#10;}" description="生成route模板" toReformat="false" toShortenFQNames="true">
-    <variable name="route" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="DART" value="true" />
-      <option name="DART_STATEMENT" value="false" />
     </context>
   </template>
   <template name="yamlgroup" value="################## $name$ ##################&#10;$content$&#10;################## $name$ ##################" description="yaml依赖组" toReformat="false" toShortenFQNames="true">
