@@ -1,6 +1,7 @@
 <application>
   <component name="TipsStore">
     <option name="globalFirstStartUp" value="false" />
+    <entry projectPath="$USER_HOME$/Downloads/Open-IM-Flutter-Demo-master" startUpFlag="FIRST" />
     <entry projectPath="$USER_HOME$/Downloads/flutter packages main packages-palette_generator/example" startUpFlag="FIRST" />
     <entry projectPath="$USER_HOME$/Downloads/flutter-develop" startUpFlag="FIRST" />
     <entry projectPath="$USER_HOME$/Downloads/maopao" startUpFlag="FIRST" />
