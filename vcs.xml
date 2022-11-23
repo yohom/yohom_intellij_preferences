@@ -314,9 +314,13 @@
           <option name="url" value="git@github.com:yohom/Open-IM-SDK-Flutter.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://gitee.com/pslxx/xs-flutter.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/Github/Me/All/chudi/im/support" />
+    <option name="cloneParentDir" value="/Volumes/yohom/public/外包/IM" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="SHOW_TAG_NAMES" value="true" />
